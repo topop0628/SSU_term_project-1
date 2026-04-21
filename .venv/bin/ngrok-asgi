@@ -1,0 +1,6 @@
+#!/Users/min/Documents/SSU_term_project-1/.venv/bin/python3
+import sys
+from ngrok import __main__
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(__main__.asgi_cli())
