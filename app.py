@@ -8,7 +8,7 @@ st.set_page_config(page_title="시크릿 에이전트", layout="wide", page_icon
 with st.sidebar:
     st.header("🔗 서버 설정")
     # Kaggle에서 실행한 ngrok 주소를 여기에 입력합니다.
-    api_url = st.text_input("Kaggle API URL", placeholder="https://xxxx-xxxx.ngrok-free.app")
+    api_url = st.text_input("Kaggle API URL", placeholder="https://passerby-blustery-magnolia.ngrok-free.dev")
     
     st.divider()
     
