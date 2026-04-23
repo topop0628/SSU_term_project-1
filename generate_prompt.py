@@ -43,7 +43,7 @@ def build_prompt(agent_type, icl, reasoning, refine):
     prompt_packet = {
         "identity": {
             "persona": f"너는 {persona}야.",
-            "target": "미취학 아동 (만 3~6세)"
+            "target": "미취학 아동"
         },
         "task": {
             "goal": goal,
