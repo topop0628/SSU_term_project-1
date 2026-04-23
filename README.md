@@ -19,12 +19,12 @@
 
 | 모델명 | 개발사 | 파라미터 | 특징 |
 | :--- | :--- | :--- | :--- |
-| **Llama 4 Scout** | Meta | 10B | 글로벌 표준 베이스라인, 추론 효율성과 지시 이행의 균형 |
-| **Gemma 4** | Google | 9B | 논리적 추론 능력이 뛰어나며 레시피 은폐 전략 수립에 강점 |
-| **Qwen 3.5-8B** | Alibaba | 8B | 지시 이행 및 JSON 포맷팅의 정확도가 매우 높음 |
-| **Solar Pro 2** | Upstage | 31B | 한국어 성능 최상위권, 고도의 문맥 이해 및 4-bit 양자화 실험 대상 |
-| **HyperCLOVA X SEED** | NAVER | 32B | 한국어 특화 및 문화적 뉘앙스 구현, 미취학 아동 대상 어휘 선택 탁월 |
-| **Bllossom Llama 4** | MLPLab | 10B | Llama 4 기반 한국어 특화 모델, 효율적인 추론과 한국어 정서의 조화 |
+| **Llama 4 Scout** | Meta | 10B | 글로벌 표준 베이스라인, 추론 효율성과 지시 이행의 완벽한 균형 |
+| **Gemma 4** | Google | 9B | Apache 2.0 라이선스의 완전 공개 모델, 논리적 추론 및 보안 전략 수립 강점 |
+| **Qwen 3.5-8B** | Alibaba | 8B | 지시 이행 및 JSON 포맷팅의 정석, 복잡한 데이터 구조 유지 능력 탁월 |
+| **EXAONE 4.5** | LG AI | 33B | 2026년 최신 한국어 SOTA 모델, 뛰어난 문맥 이해 및 한국어 추론 능력 보유 |
+| **Bllossom Llama 4** | MLPLab | 10B | Llama 4 기반의 한국어 특화 모델, 글로벌 지능과 한국어 정서의 최적화 조합 |
+| **EEVE Korean** | Yanolja | 10.8B | 검증된 한국어 효율성 모델, 미취학 아동 대상의 부드러운 구어체 생성 특화 |
 ---
 
 ## 3. 평가 전략 (Evaluation Methodology)
