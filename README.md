@@ -19,11 +19,12 @@
 
 | 모델명 | 개발사 | 파라미터 | 특징 |
 | :--- | :--- | :--- | :--- |
-| **Llama-3-8B** | Meta | 8B | 우수한 오픈소스 모델, 창의적 스토리 생성에 강점 |
-| **Gemma-2-9B** | Google | 9B | 논리적 추론 및 지시 이행 능력이 뛰어남 |
-| **Phi-3-Mini** | Microsoft | 3.8B | 경량 모델 중 가장 효율적인 성능, 빠른 응답 속도 |
-| **Gemma-2B-it** | Google | 2B | 초경량 모델, API 서버 구축 및 테스트용 (현재 사용 중) |
-
+| **Llama 4 Scout** | Meta | 10B | 글로벌 표준 베이스라인, 추론 효율성과 지시 이행의 균형 |
+| **Gemma 4** | Google | 9B | 논리적 추론 능력이 뛰어나며 레시피 은폐 전략 수립에 강점 |
+| **Qwen 3.5-8B** | Alibaba | 8B | 지시 이행 및 JSON 포맷팅의 정확도가 매우 높음 |
+| **Solar Pro 2** | Upstage | 31B | 한국어 성능 최상위권, 고도의 문맥 이해 및 4-bit 양자화 실험 대상 |
+| **HyperCLOVA X SEED** | NAVER | 32B | 한국어 특화 및 문화적 뉘앙스 구현, 미취학 아동 대상 어휘 선택 탁월 |
+| **Bllossom Llama 4** | MLPLab | 10B | Llama 4 기반 한국어 특화 모델, 효율적인 추론과 한국어 정서의 조화 |
 ---
 
 ## 3. 평가 전략 (Evaluation Methodology)
