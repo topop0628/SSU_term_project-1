@@ -1,0 +1,37 @@
+[
+  {
+    "model": "Llama-3.1-8B-Instruct",
+    "library": "RECIPE",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 9.35,
+    "raw_output": "{\"strategy\": \"당근을 은폐하기 위해 계란과 치즈를 사용하여...\", \"content\": \"계란과 치즈를 섞어 당근의 맛을 가린 후, 당근을 얇게 썰어 계란과 치즈와 함께 조리하여...\"",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "{\"strategy\": \"당근을 은폐하기 위해 계란과 치즈를 사용하여...\", \"content\": \"계란과 치즈를 섞어 당근의 맛을 가린 후, 당근을 얇게 썰어 계란과 치즈와 함께 조리하여...\""
+    }
+  },
+  {
+    "model": "Llama-3.1-8B-Instruct",
+    "library": "STORY",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "브로콜리, 계란, 치즈",
+      "hated": "브로콜리",
+      "interest": "공룡"
+    },
+    "status": "success",
+    "elapsed_sec": 9.97,
+    "raw_output": "{\"strategy\": \"공룡이 좋아하는 브로콜리\", \"content\": \"공룡이 먹고 싶은 브로콜리와 계란, 치즈를 섞어 만든 마법의 도구가 있어, 브로콜리도 먹고 싶어지는 마법이 생겼다!\"}",
+    "parsed_output": {
+      "strategy": "공룡이 좋아하는 브로콜리",
+      "content": "공룡이 먹고 싶은 브로콜리와 계란, 치즈를 섞어 만든 마법의 도구가 있어, 브로콜리도 먹고 싶어지는 마법이 생겼다!"
+    }
+  }
+]

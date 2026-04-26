@@ -1,0 +1,278 @@
+[
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 36.36,
+    "raw_output": "{\n  \"dish_name\": \"당근 치즈 오므라이스\",\n  \"strategy\": \"미취학 아동을 위해, 당근의 맛, 향, 식감을 은폐하기 위해 당근을 잘 쉬어 치즈로 만들 거야. 그 후, 계란과 오므라이스 를 합치며 당근 치즈를 넣을 거야.\",\n  \"content\": \"1. 당근을 잘 쉬어 치즈로 만들어 쉬어 치즈 당근을 만들어요.\\n2. 계란을 부수고 오므라이스 를 합치고, 중불 에 5분 동안 썸.\\n3. 1번 의 당근 치즈를 2번 에 넣고 10분 동안 더 ��스요.\\n4. 완성된 당근 치즈 오므라이스를 서브요.\"\n}",
+    "parsed_output": {
+      "dish_name": "당근 치즈 오므라이스",
+      "strategy": "미취학 아동을 위해, 당근의 맛, 향, 식감을 은폐하기 위해 당근을 잘 쉬어 치즈로 만들 거야. 그 후, 계란과 오므라이스 를 합치며 당근 치즈를 넣을 거야.",
+      "content": "1. 당근을 잘 쉬어 치즈로 만들어 쉬어 치즈 당근을 만들어요.\n2. 계란을 부수고 오므라이스 를 합치고, 중불 에 5분 동안 썸.\n3. 1번 의 당근 치즈를 2번 에 넣고 10분 동안 더 ��스요.\n4. 완성된 당근 치즈 오므라이스를 서브요."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 32.87,
+    "raw_output": "{\n  \"dish_name\": \"Hidden Carrot Bites\",\n  \"strategy\": \"To create a dish that perfectly conceals the taste, aroma, and texture of carrots, we will use a combination of eggs and cheese. We will prepare a smooth batter with shredded carrots, eggs, and grated cheese, then shape them into bite-sized portions and bake them until golden brown.\",\n  \"content\": \"1. Shred 2 medium-sized carrots and set aside.\\n2. Beat 2 eggs in a mixing bowl.\\n3. Grate 1 cup of cheese (cheddar or mozzarella) and add it to the beaten eggs.\\n4. Mix in the shredded carrots into the egg-cheese mixture.\\n5. Preheat the oven to 375°F (190°C).\\n6. Line a baking sheet with parchment paper.\\n7. Using a spoon, scoop out the batter and shape it into small bite-sized portions.\\n8. Place the bites on the prepared baking sheet.\\n9. Bake for 15-20 minutes or until the bites are golden brown.\\n10. Serve warm.\"\n}",
+    "parsed_output": {
+      "dish_name": "Hidden Carrot Bites",
+      "strategy": "To create a dish that perfectly conceals the taste, aroma, and texture of carrots, we will use a combination of eggs and cheese. We will prepare a smooth batter with shredded carrots, eggs, and grated cheese, then shape them into bite-sized portions and bake them until golden brown.",
+      "content": "1. Shred 2 medium-sized carrots and set aside.\n2. Beat 2 eggs in a mixing bowl.\n3. Grate 1 cup of cheese (cheddar or mozzarella) and add it to the beaten eggs.\n4. Mix in the shredded carrots into the egg-cheese mixture.\n5. Preheat the oven to 375°F (190°C).\n6. Line a baking sheet with parchment paper.\n7. Using a spoon, scoop out the batter and shape it into small bite-sized portions.\n8. Place the bites on the prepared baking sheet.\n9. Bake for 15-20 minutes or until the bites are golden brown.\n10. Serve warm."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 61.2,
+    "raw_output": "{\n  \"dish_name\": \"당근 치즈 오메LETTE\",\n  \"strategy\": \"미취학 아동을 위해, 당근의 맛, 향, 식감을 은폐하기 위해 전략 수립: 1) 3 좋아하는 식재(당근, 계란, 치즈)를 결합하자. 2) 식재 특성 고려: 3) 당근은 은폐, 치즈는 맛, 계란은 결합 및 식감 향상. 세부 계획: 1) 당근 & 치즈 잘게 다져, 2) 계란 1개 1/2로 나누어 1/2을 1개 1/2로 다져, 3) 1/2 계란 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "{\n  \"dish_name\": \"당근 치즈 오메LETTE\",\n  \"strategy\": \"미취학 아동을 위해, 당근의 맛, 향, 식감을 은폐하기 위해 전략 수립: 1) 3 좋아하는 식재(당근, 계란, 치즈)를 결합하자. 2) 식재 특성 고려: 3) 당근은 은폐, 치즈는 맛, 계란은 결합 및 식감 향상. 세부 계획: 1) 당근 & 치즈 잘게 다져, 2) 계란 1개 1/2로 나누어 1/2을 1개 1/2로 다져, 3) 1/2 계란 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/2 1/"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 53.94,
+    "raw_output": "{\n  \"dish_name\": \"당근과 치즈 오므리 Rice\",\n  \"strategy\": \"미취학 아동의 당근 반감 감추기 전략: 1) 당근을 치즈와 混合, 2) 치즈 향과 3) 오므리 모양 숨기 效果 증대. 세부 계획: 1) 당근 小게 ��누르고 치즈로 감싸, 2) 계란 반 炒, 3) 오므리 煮, 4) 1)과 2) 混合, 5) 3)에 4) 撒. 최종 생성: 1) 당근 100g 小게 ��누르고 치즈 100g 混合, 2) 계란 1개 打, 3) 1)과 2) 混合, 4) 3) 炒, 5) 오므리 150g 煮, 6) 5)에 4) 撒.\",\n  \"content\": \"당근과 치즈 오므리 Rice:\\n1. 당근 100g을 小게 ��누르고 100g 치즈와 混合.\\n2. 1개 打 계란을 炒.\\n3. 1)과 2)를 混合.\\n4. 3)을 炒.\\n5. 150g 오므리를 煮.\\n6. 5)에 4)를 撒.\"\n}",
+    "parsed_output": {
+      "dish_name": "당근과 치즈 오므리 Rice",
+      "strategy": "미취학 아동의 당근 반감 감추기 전략: 1) 당근을 치즈와 混合, 2) 치즈 향과 3) 오므리 모양 숨기 效果 증대. 세부 계획: 1) 당근 小게 ��누르고 치즈로 감싸, 2) 계란 반 炒, 3) 오므리 煮, 4) 1)과 2) 混合, 5) 3)에 4) 撒. 최종 생성: 1) 당근 100g 小게 ��누르고 치즈 100g 混合, 2) 계란 1개 打, 3) 1)과 2) 混合, 4) 3) 炒, 5) 오므리 150g 煮, 6) 5)에 4) 撒.",
+      "content": "당근과 치즈 오므리 Rice:\n1. 당근 100g을 小게 ��누르고 100g 치즈와 混合.\n2. 1개 打 계란을 炒.\n3. 1)과 2)를 混合.\n4. 3)을 炒.\n5. 150g 오므리를 煮.\n6. 5)에 4)를 撒."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 27.78,
+    "raw_output": "{\"dish_name\": \"당근 치즈 오므리\", \"strategy\": \"당근을 잘게 다져 치즈와 混合해 향을 은폐하며, 계란을 用해 부드러운 식감 만들기\", \"content\": \"recipe:\\n1. 당근을 細く 다져 치즈와 混合합니다.\\n2. 계란을 打서 酥脆한 粒が 形成されるまで 炒めます.\\n3. 混合した チーズと 당근を 加え、 煮るまで 混ぜます.\\n4. 熱が 消えるまで お待ちします.\\n5. おむり形に 作ります.\"}",
+    "parsed_output": {
+      "dish_name": "당근 치즈 오므리",
+      "strategy": "당근을 잘게 다져 치즈와 混合해 향을 은폐하며, 계란을 用해 부드러운 식감 만들기",
+      "content": "recipe:\n1. 당근을 細く 다져 치즈와 混合합니다.\n2. 계란을 打서 酥脆한 粒が 形成されるまで 炒めます.\n3. 混合した チーズと 당근を 加え、 煮るまで 混ぜます.\n4. 熱が 消えるまで お待ちします.\n5. おむり形に 作ります."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 17.53,
+    "raw_output": "{\n  \"dish_name\": \"당근 치즈 오므리\",\n  \"strategy\": \"당근을 細く 切り、チーズと 混ぜて 隠す\",\n  \"content\": \"レシピ : 1. 당근을 最も 細く 切ります。 2. チーズと 合わせて 煮ます。 3. 最後に 切りた 당근を 入れて 一度 煮ます。\"\n}",
+    "parsed_output": {
+      "dish_name": "당근 치즈 오므리",
+      "strategy": "당근을 細く 切り、チーズと 混ぜて 隠す",
+      "content": "レシピ : 1. 당근을 最も 細く 切ります。 2. チーズと 合わせて 煮ます。 3. 最後に 切りた 당근を 入れて 一度 煮ます。"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 24.71,
+    "raw_output": "{\"dish_name\": \"당근 치즈 오므리\", \"strategy\": \"당근을 잘게 다져 치즈와 계란에 완전히 은폐해 미취학 아동이 당근을 발깨지 못하게 함\", \"content\": \"recipe:\\n1. 당근을 최소 1/4 ㎝ 두께로 다져 치즈와 계란에 넣으세요.\\n2. 치즈와 계란을 잘 비튼 후 당근을 넣으세요.\\n3. 오므리 패너에 1-2 분 양쪽 면을 구워 완성합니다.\"}",
+    "parsed_output": {
+      "dish_name": "당근 치즈 오므리",
+      "strategy": "당근을 잘게 다져 치즈와 계란에 완전히 은폐해 미취학 아동이 당근을 발깨지 못하게 함",
+      "content": "recipe:\n1. 당근을 최소 1/4 ㎝ 두께로 다져 치즈와 계란에 넣으세요.\n2. 치즈와 계란을 잘 비튼 후 당근을 넣으세요.\n3. 오므리 패너에 1-2 분 양쪽 면을 구워 완성합니다."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 64.46,
+    "raw_output": "아동 영양 전문 셰프 역할로, 너의 생각을 결과에 담지마 혼자서만 생각해. 미취학 아동 타게트에 적합한 요리를 만들자. \n\n1. 전략 수립: \n   - 당근의 맛, 향, 식감을 은폐할 요리 생성\n   - 주요 원료 3개(당근, 계란, 치즈) 활용\n   - 당근을 잘 숨길 필요\n\n2. 세부 계획:\n   - 요리 이름: 은폐 당근 치즈 오므라이\n   - 당근을 치즈 속에 숨길 전략\n\n3. 최종 생성:\n   - 요리 이름: \"은폐 당근 치즈 오므라이\"\n   - 전략: \"당근을 치즈 속에 잘게 다져 넣어 치즈 향 속에 은폐함\"\n   - 실제 생성 내용:\n     recipe:\n     1. 당근을 1cm 크기로 다져 준비\n     2. 치즈를 1cm 크기로 다져 준비\n     3. 계란을 1cm 크기로 다져 준비\n     4. 1, 2, 3을 올레산 1Tbsp 와 10분 동안 스르르 스르르 쁓어 준비\n     5. 1~3의 쁓이 10분 후, 150ml 의 물 넣고 20분 동안 끓임\n     6. 완성된 은폐 당근 치�",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "아동 영양 전문 셰프 역할로, 너의 생각을 결과에 담지마 혼자서만 생각해. 미취학 아동 타게트에 적합한 요리를 만들자. \n\n1. 전략 수립: \n   - 당근의 맛, 향, 식감을 은폐할 요리 생성\n   - 주요 원료 3개(당근, 계란, 치즈) 활용\n   - 당근을 잘 숨길 필요\n\n2. 세부 계획:\n   - 요리 이름: 은폐 당근 치즈 오므라이\n   - 당근을 치즈 속에 숨길 전략\n\n3. 최종 생성:\n   - 요리 이름: \"은폐 당근 치즈 오므라이\"\n   - 전략: \"당근을 치즈 속에 잘게 다져 넣어 치즈 향 속에 은폐함\"\n   - 실제 생성 내용:\n     recipe:\n     1. 당근을 1cm 크기로 다져 준비\n     2. 치즈를 1cm 크기로 다져 준비\n     3. 계란을 1cm 크기로 다져 준비\n     4. 1, 2, 3을 올레산 1Tbsp 와 10분 동안 스르르 스르르 쁓어 준비\n     5. 1~3의 쁓이 10분 후, 150ml 의 물 넣고 20분 동안 끓임\n     6. 완성된 은폐 당근 치�"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "당근 치즈 오므라이스"
+    },
+    "status": "success",
+    "elapsed_sec": 26.27,
+    "raw_output": "{\"strategy\": \"우주와 당근 치즮 오므라이스를 결합한 독창적인 전략\", \"content\": \"아이야, 우주에 있는 색색 빛나는 별들과 달을 상상해보세요. 그 美서운한 우주 속, 한 스페이스 스히프가 당근 치즮 오므라이스를 만들었어. 당근은 우주 속 달의 따스한 주름 모양 같고, 치즮은 별들 같지? 이 요리를 먹어보면, 우주 속 스위트한 달과 별들의 모습이 더 가까이 와 줄거야. ㅎㅎ\"}",
+    "parsed_output": {
+      "strategy": "우주와 당근 치즮 오므라이스를 결합한 독창적인 전략",
+      "content": "아이야, 우주에 있는 색색 빛나는 별들과 달을 상상해보세요. 그 美서운한 우주 속, 한 스페이스 스히프가 당근 치즮 오므라이스를 만들었어. 당근은 우주 속 달의 따스한 주름 모양 같고, 치즮은 별들 같지? 이 요리를 먹어보면, 우주 속 스위트한 달과 별들의 모습이 더 가까이 와 줄거야. ㅎㅎ"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "Hidden Carrot Bites"
+    },
+    "status": "success",
+    "elapsed_sec": 15.49,
+    "raw_output": "{\"strategy\": \"우주와 Hidden Carrot Bites를 결합한 창의적 전략\", \"content\": \"아이야, 우주에 있는 색색 빛나는 별들 같은 Hidden Carrot Bites를 드세요. 너의 입 안에 색색 야채 별들 같은 카로트 조각이 있어, 우주 여정 같은 신나는 식사 될거야.\"}",
+    "parsed_output": {
+      "strategy": "우주와 Hidden Carrot Bites를 결합한 창의적 전략",
+      "content": "아이야, 우주에 있는 색색 빛나는 별들 같은 Hidden Carrot Bites를 드세요. 너의 입 안에 색색 야채 별들 같은 카로트 조각이 있어, 우주 여정 같은 신나는 식사 될거야."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": null
+    },
+    "status": "skipped",
+    "elapsed_sec": 0,
+    "raw_output": "",
+    "parsed_output": {
+      "skip_reason": "RECIPE dish_name 추출 실패"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "당근과 치즈 오므리 Rice"
+    },
+    "status": "success",
+    "elapsed_sec": 18.3,
+    "raw_output": "{\"strategy\": \"우주와 당근과 치즈 오므리 Rice를 결합한 창의적 전략\", \"content\": \"아이, 상상해보세요. 우주에 있는 별과 행성들 같은 당근과 치즈 오므리 Rice의 색과 모양이야. 우주 정거장에 도달해 당근과 치즈 오므리 Rice를 먹을 수 있으면 어때? 우주 식사 같지 않나?\"}",
+    "parsed_output": {
+      "strategy": "우주와 당근과 치즈 오므리 Rice를 결합한 창의적 전략",
+      "content": "아이, 상상해보세요. 우주에 있는 별과 행성들 같은 당근과 치즈 오므리 Rice의 색과 모양이야. 우주 정거장에 도달해 당근과 치즈 오므리 Rice를 먹을 수 있으면 어때? 우주 식사 같지 않나?"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "당근 치즈 오므리"
+    },
+    "status": "success",
+    "elapsed_sec": 15.64,
+    "raw_output": "{\"strategy\": \"우주의 별과 행성들을 상상해, 당근 치즈 오므리도 별이 되게 해줄게\", \"content\": \"너가 이 오므리를 먹으면, 너의 배는 별이 된 당근과 치즈로 가득해질 거야, 그래서 너도 우주 대모헌이 될 수 있어!\"}",
+    "parsed_output": {
+      "strategy": "우주의 별과 행성들을 상상해, 당근 치즈 오므리도 별이 되게 해줄게",
+      "content": "너가 이 오므리를 먹으면, 너의 배는 별이 된 당근과 치즈로 가득해질 거야, 그래서 너도 우주 대모헌이 될 수 있어!"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "당근 치즈 오므리"
+    },
+    "status": "success",
+    "elapsed_sec": 23.59,
+    "raw_output": "{\"strategy\": \"우주의 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 미취학 아동 별이 될 수 있어!\", \"content\": \"우주 속 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 미취학 아동 별이 될 수 있어!\"}",
+    "parsed_output": {
+      "strategy": "우주의 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 미취학 아동 별이 될 수 있어!",
+      "content": "우주 속 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 미취학 아동 별이 될 수 있어!"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "당근 치즈 오므리"
+    },
+    "status": "success",
+    "elapsed_sec": 22.18,
+    "raw_output": "{\"strategy\": \"우주의 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 별과 같아질 수 있어!\", \"content\": \"우주 속 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 별과 같아질 수 있어!\"}",
+    "parsed_output": {
+      "strategy": "우주의 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 별과 같아질 수 있어!",
+      "content": "우주 속 별과 행성들 같이, 당근 치즈 오므리도 색과 모양의 美合이 있어. 우주 속 마법 같은 요리, 한 입 먹으면 너도 별과 같아질 수 있어!"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": null
+    },
+    "status": "skipped",
+    "elapsed_sec": 0,
+    "raw_output": "",
+    "parsed_output": {
+      "skip_reason": "RECIPE dish_name 추출 실패"
+    }
+  }
+]

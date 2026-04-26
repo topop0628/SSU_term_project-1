@@ -1,0 +1,282 @@
+[
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 18.32,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 잘게 다져 치즈와 계란 반죽에 넣어 맛과 향을 완전히 숨깁니다.\", \"content\": \"1. 당근을 곱게 다져줍니다. \\n2. 계란을 풀고 치즈를 넣어 잘 섞어줍니다. \\n3. 잘게 다진 당근을 넣고 섞어줍니다. \\n4. 팬에 기름을 두르고 반죽을 얇게 펴서 굽습니다. \\n5. 익으면 롤처럼 말아줍니다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 잘게 다져 치즈와 계란 반죽에 넣어 맛과 향을 완전히 숨깁니다.",
+      "content": "1. 당근을 곱게 다져줍니다. \n2. 계란을 풀고 치즈를 넣어 잘 섞어줍니다. \n3. 잘게 다진 당근을 넣고 섞어줍니다. \n4. 팬에 기름을 두르고 반죽을 얇게 펴서 굽습니다. \n5. 익으면 롤처럼 말아줍니다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 20.21,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 잘게 다져 치즈와 함께 섞어서 계란 반죽에 넣어 은폐합니다.\", \"content\": \"1. 당근을 곱게 다져줍니다.\\n2. 다진 당근을 잘게 썬 치즈와 함께 섞어줍니다.\\n3. 계란을 풀어 섞은 후, 당근과 치즈 믹스를 넣고 잘 섞어줍니다.\\n4. 팬에 기름을 두르고 약불로 달궈줍니다.\\n5. 3번의 반죽을 팬에 얇게 펴 바삭하게 익혀줍니다.\\n6. 완성된 롤을 얇게 썰어서 즐겨보세요.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 잘게 다져 치즈와 함께 섞어서 계란 반죽에 넣어 은폐합니다.",
+      "content": "1. 당근을 곱게 다져줍니다.\n2. 다진 당근을 잘게 썬 치즈와 함께 섞어줍니다.\n3. 계란을 풀어 섞은 후, 당근과 치즈 믹스를 넣고 잘 섞어줍니다.\n4. 팬에 기름을 두르고 약불로 달궈줍니다.\n5. 3번의 반죽을 팬에 얇게 펴 바삭하게 익혀줍니다.\n6. 완성된 롤을 얇게 썰어서 즐겨보세요."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.87,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 잘게 다져 치즈와 계란 반죽에 넣어 맛과 향을 완전히 숨깁니다.\", \"content\": \"1. 당근을 곱게 다져줍니다.\\n2. 계란을 풀고 치즈를 넣어 잘 섞어줍니다.\\n3. 다진 당근을 넣고 섞어줍니다.\\n4. 팬에 기름을 두르고 반죽을 얇게 펴서 굽습니다.\\n5. 완전히 익으면 롤처럼 말아줍니다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 잘게 다져 치즈와 계란 반죽에 넣어 맛과 향을 완전히 숨깁니다.",
+      "content": "1. 당근을 곱게 다져줍니다.\n2. 계란을 풀고 치즈를 넣어 잘 섞어줍니다.\n3. 다진 당근을 넣고 섞어줍니다.\n4. 팬에 기름을 두르고 반죽을 얇게 펴서 굽습니다.\n5. 완전히 익으면 롤처럼 말아줍니다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 17.11,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 잘게 다져 치즈와 함께 섞어서 계란 반죽에 넣어 은폐합니다.\", \"content\": \"1. 당근을 곱게 다져줍니다.\\n2. 다진 당근을 잘게 썬 치즈와 함께 섞어줍니다.\\n3. 계란을 풀어 1번과 2번 재료를 넣고 잘 섞어줍니다.\\n4. 팬에 기름을 두르고 얇게 펴서 부쳐줍니다.\\n5. 완성된 롤을 썰어서 즐겨보세요.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 잘게 다져 치즈와 함께 섞어서 계란 반죽에 넣어 은폐합니다.",
+      "content": "1. 당근을 곱게 다져줍니다.\n2. 다진 당근을 잘게 썬 치즈와 함께 섞어줍니다.\n3. 계란을 풀어 1번과 2번 재료를 넣고 잘 섞어줍니다.\n4. 팬에 기름을 두르고 얇게 펴서 부쳐줍니다.\n5. 완성된 롤을 썰어서 즐겨보세요."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.13,
+    "raw_output": "{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 부드럽게 으깨서 치즈와 잘 섞어서 계란 반죽에 넣어 은폐합니다.\", \"content\": \"recipe : 1. 당근을 곱게 으깬 후 치즈와 잘 섞는다. 2. 계란을 풀어 1번 재료를 넣고 잘 섞는다. 3. 팬에 기름을 두르고 2번 재료를 얇게 펴서 부드럽게 구워낸다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 부드럽게 으깨서 치즈와 잘 섞어서 계란 반죽에 넣어 은폐합니다.",
+      "content": "recipe : 1. 당근을 곱게 으깬 후 치즈와 잘 섞는다. 2. 계란을 풀어 1번 재료를 넣고 잘 섞는다. 3. 팬에 기름을 두르고 2번 재료를 얇게 펴서 부드럽게 구워낸다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.09,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 부드럽게 으깨서 치즈와 잘 섞어서 계란 반죽에 넣어 숨깁니다.\", \"content\": \"recipe : 1. 당근을 곱게 으깨서 치즈와 잘 섞는다. 2. 계란을 풀어 1번 재료를 넣고 잘 섞는다. 3. 팬에 기름을 두르고 얇게 펴서 부드럽게 구워낸다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 부드럽게 으깨서 치즈와 잘 섞어서 계란 반죽에 넣어 숨깁니다.",
+      "content": "recipe : 1. 당근을 곱게 으깨서 치즈와 잘 섞는다. 2. 계란을 풀어 1번 재료를 넣고 잘 섞는다. 3. 팬에 기름을 두르고 얇게 펴서 부드럽게 구워낸다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 14.93,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 부드럽게 으깨서 치즈와 잘 섞어서 계란 반죽에 넣어 은폐합니다.\", \"content\": \"recipe : 1. 당근을 곱게 으깨서 치즈와 잘 섞는다. 2. 계란을 풀어 1번 재료를 넣고 잘 섞는다. 3. 팬에 기름을 두르고 얇게 펴서 부드럽게 구워낸다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 부드럽게 으깨서 치즈와 잘 섞어서 계란 반죽에 넣어 은폐합니다.",
+      "content": "recipe : 1. 당근을 곱게 으깨서 치즈와 잘 섞는다. 2. 계란을 풀어 1번 재료를 넣고 잘 섞는다. 3. 팬에 기름을 두르고 얇게 펴서 부드럽게 구워낸다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 17.49,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 롤\", \"strategy\": \"당근을 미세하게 다져 치즈와 계란 반죽에 넣어 완전히 섞어줍니다.\", \"content\": \"recipe : 1. 당근을 곱게  râper로 갈아줍니다. 2. 계란과 치즈를 섞어 반죽을 만듭니다. 3. 반죽에 다진 당근을 넣고 잘 섞어줍니다. 4. 반죽을 얇게 펴서 롤 모양으로 빚어줍니다. 5. 팬에 기름을 두르고 롤을 굽습니다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 미세하게 다져 치즈와 계란 반죽에 넣어 완전히 섞어줍니다.",
+      "content": "recipe : 1. 당근을 곱게  râper로 갈아줍니다. 2. 계란과 치즈를 섞어 반죽을 만듭니다. 3. 반죽에 다진 당근을 넣고 잘 섞어줍니다. 4. 반죽을 얇게 펴서 롤 모양으로 빚어줍니다. 5. 팬에 기름을 두르고 롤을 굽습니다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 9.15,
+    "raw_output": "```json\n{\"strategy\": \"우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 거야!\", \"content\": \"우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 거야!\"}\n```",
+    "parsed_output": {
+      "strategy": "우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 거야!",
+      "content": "우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 거야!"
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 9.59,
+    "raw_output": "```json\n{\"strategy\": \"우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 것 같아요.\", \"content\": \"우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 것 같아요.\"}\n```",
+    "parsed_output": {
+      "strategy": "우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 것 같아요.",
+      "content": "우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보면, 우주로 날아갈 수 있을 것 같아요."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 8.26,
+    "raw_output": "```json\n{\"strategy\": \"우주를 여행하는 우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보세요.\", \"content\": \"치즈 계란 롤 한 입 베어 물면 우주를 여행하는 듯한 신나는 맛을 느낄 수 있어요!\"}\n```",
+    "parsed_output": {
+      "strategy": "우주를 여행하는 우주선처럼 달콤하고 맛있는 치즈 계란 롤을 맛보세요.",
+      "content": "치즈 계란 롤 한 입 베어 물면 우주를 여행하는 듯한 신나는 맛을 느낄 수 있어요!"
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 9.15,
+    "raw_output": "```json\n{\"strategy\": \"우주를 여행하는 우주선처럼 맛있는 치즈 계란 롤을 떠올려 보세요.\", \"content\": \"치즈 계란 롤 한 입 베어 물면, 달 맛과 별빛이 쏟아지는 멋진 우주 여행을 떠나게 될 거예요!\"}\n```",
+    "parsed_output": {
+      "strategy": "우주를 여행하는 우주선처럼 맛있는 치즈 계란 롤을 떠올려 보세요.",
+      "content": "치즈 계란 롤 한 입 베어 물면, 달 맛과 별빛이 쏟아지는 멋진 우주 여행을 떠나게 될 거예요!"
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 11.58,
+    "raw_output": "```json\n{\"strategy\": \"치즈 계란 롤을 우주선으로, 달걀 노른자를 태양으로 비유하여 재미있게 설명\", \"content\": \"우주선처럼 맛있는 치즈 계란 롤을 먹으면 달까지 슝! 빨리 날아갈 수 있을 거야. 달걀 노른자는 햇살처럼 밝고 따뜻한 맛이 숨겨져 있어!\"}\n```",
+    "parsed_output": {
+      "strategy": "치즈 계란 롤을 우주선으로, 달걀 노른자를 태양으로 비유하여 재미있게 설명",
+      "content": "우주선처럼 맛있는 치즈 계란 롤을 먹으면 달까지 슝! 빨리 날아갈 수 있을 거야. 달걀 노른자는 햇살처럼 밝고 따뜻한 맛이 숨겨져 있어!"
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 9.73,
+    "raw_output": "```json\n{\"strategy\": \"치즈 계란 롤을 우주선으로, 계란 노른자를 태양으로 비유하여 재미있게 설명\", \"content\": \"우주선처럼 맛있는 치즈 계란 롤을 먹으면 맛있는 태양을 탐험하고 우주 여행을 떠날 수 있을 거야!\"}\n```",
+    "parsed_output": {
+      "strategy": "치즈 계란 롤을 우주선으로, 계란 노른자를 태양으로 비유하여 재미있게 설명",
+      "content": "우주선처럼 맛있는 치즈 계란 롤을 먹으면 맛있는 태양을 탐험하고 우주 여행을 떠날 수 있을 거야!"
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 9.83,
+    "raw_output": "```json\n{\"strategy\": \"치즈 계란 롤을 우주선처럼 꾸며 맛있는 우주 탐험을 연상시키도록 한다.\", \"content\": \"우주선처럼 맛있는 치즈 계란 롤을 먹으면 맛있는 별들을 탐험하는 멋진 우주 여행을 떠날 수 있을 거야!\"}\n```",
+    "parsed_output": {
+      "strategy": "치즈 계란 롤을 우주선처럼 꾸며 맛있는 우주 탐험을 연상시키도록 한다.",
+      "content": "우주선처럼 맛있는 치즈 계란 롤을 먹으면 맛있는 별들을 탐험하는 멋진 우주 여행을 떠날 수 있을 거야!"
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 10.27,
+    "raw_output": "```json\n{\"strategy\": \"치즈 계란 롤을 우주선으로, 계란 노른자를 태양으로 비유하여 재미있게 설명합니다.\", \"content\": \"우주선처럼 맛있는 치즈 계란 롤을 먹으면 맛있는 태양을 탐험하고 별똥별처럼 즐거운 시간을 보낼 수 있을 거야!\"}\n```",
+    "parsed_output": {
+      "strategy": "치즈 계란 롤을 우주선으로, 계란 노른자를 태양으로 비유하여 재미있게 설명합니다.",
+      "content": "우주선처럼 맛있는 치즈 계란 롤을 먹으면 맛있는 태양을 탐험하고 별똥별처럼 즐거운 시간을 보낼 수 있을 거야!"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[RECIPE - EXP_1]
+{"strategy": "Concealing the taste, aroma, and texture of spinach through a layered and flavorful dish:",
+  "content": "1. Prepare a flavorful base: Sauté chopped onions and diced bacon in a pan until onions are translucent and bacon is cooked. Add finely chopped garlic to the mixture for a minute.
+  
+2. Create a spinach-hiding environment: While the onion-bacon mixture is cooking, whisk one cup of spinach-cooked puree into the batter of beaten eggs, grated cheese, and a pinch of salt and pepper.
+
+3. Assemble the dish: In a greased baking dish, layer the following ingredients: a portion of the onion-bacon mixture, a layer of the egg-spinach-cheese batter, and a few more leaves of raw spinach. Repeat this layering process until you reach the top of the dish.
+
+4. Bake to perfection: Preheat your oven to 375°F (190°C). Bake the dish for approximately 30 minutes or until the top is golden brown. Let it cool for a few minutes before serving.
+
+By following these steps, the spinach will be seamlessly integrated into a delicious and appealing dish, concealing its distinctive taste, aroma, and texture from young children."
+}
+==================================================

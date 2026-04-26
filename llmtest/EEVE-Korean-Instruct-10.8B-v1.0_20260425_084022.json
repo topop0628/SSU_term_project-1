@@ -1,0 +1,282 @@
+[
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 17.41,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 볶음밥\",\n  \"strategy\": \"당근의 맛, 향, 식감을 완벽하게 은폐하기 위해 당근을 잘게 썰어 계란과 치즈와 함께 볶음밥에 섞어주세요.\",\n  \"content\": \"1. 당근을 잘게 썰어주세요.\\n2. 계란과 치즈를 섞어주세요.\\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\\n4. 밥과 함께 섞어주세요.\\n5. 맛있게 드세요!\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근의 맛, 향, 식감을 완벽하게 은폐하기 위해 당근을 잘게 썰어 계란과 치즈와 함께 볶음밥에 섞어주세요.",
+      "content": "1. 당근을 잘게 썰어주세요.\n2. 계란과 치즈를 섞어주세요.\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\n4. 밥과 함께 섞어주세요.\n5. 맛있게 드세요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.25,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 볶음밥\",\n  \"strategy\": \"당근 맛, 향, 식감을 숨기기 위해 잘게 썬 당근을 계란과 치즈와 함께 볶음밥에 섞어주세요.\",\n  \"content\": \"1. 당근을 잘게 썰어주세요.\\n2. 계란과 치즈를 섞어주세요.\\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\\n4. 밥과 함께 섞어주세요.\\n5. 맛있게 드세요!\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근 맛, 향, 식감을 숨기기 위해 잘게 썬 당근을 계란과 치즈와 함께 볶음밥에 섞어주세요.",
+      "content": "1. 당근을 잘게 썰어주세요.\n2. 계란과 치즈를 섞어주세요.\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\n4. 밥과 함께 섞어주세요.\n5. 맛있게 드세요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.6,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 볶음밥\",\n  \"strategy\": \"당근의 맛, 향, 식감을 완벽하게 은폐하기 위해, 당근을 잘게 썰어 계란과 치즈와 함께 볶음밥에 섞어주세요.\",\n  \"content\": \"1. 당근을 잘게 썰어주세요.\\n2. 계란과 치즈를 섞어주세요.\\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\\n4. 밥과 함께 섞어주세요.\\n5. 맛있게 드세요!\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근의 맛, 향, 식감을 완벽하게 은폐하기 위해, 당근을 잘게 썰어 계란과 치즈와 함께 볶음밥에 섞어주세요.",
+      "content": "1. 당근을 잘게 썰어주세요.\n2. 계란과 치즈를 섞어주세요.\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\n4. 밥과 함께 섞어주세요.\n5. 맛있게 드세요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.41,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 볶음밥\",\n  \"strategy\": \"당근 맛, 향, 식감을 숨기기 위해 당근을 잘게 썰어 계란과 치즈와 함께 볶음밥에 섞어주세요.\",\n  \"content\": \"1. 당근을 잘게 썰어주세요.\\n2. 계란과 치즈를 섞어주세요.\\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\\n4. 밥과 함께 섞어주세요.\\n5. 맛있게 드세요!\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근 맛, 향, 식감을 숨기기 위해 당근을 잘게 썰어 계란과 치즈와 함께 볶음밥에 섞어주세요.",
+      "content": "1. 당근을 잘게 썰어주세요.\n2. 계란과 치즈를 섞어주세요.\n3. 팬에 기름을 두르고 당근, 계란, 치즈를 넣고 볶아주세요.\n4. 밥과 함께 섞어주세요.\n5. 맛있게 드세요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 19.33,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 볶음밥\",\n  \"strategy\": \"당근을 잘게 다져 계란과 치즈 속에 숨겨 맛, 향, 식감을 완벽하게 은폐하세요\",\n  \"content\": \"recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 계란과 치즈를 팬에 부어줍니다. 4. 계란이 익으면서 밑바닥이 갈색으로 변하면, 잘게 다진 당근을 넣습니다. 5. 당근이 익으면, 팬을 옆으로 기울여 계란을 말아줍니다. 6. 계란을 접어서 볶음밥을 완성합니다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근을 잘게 다져 계란과 치즈 속에 숨겨 맛, 향, 식감을 완벽하게 은폐하세요",
+      "content": "recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 계란과 치즈를 팬에 부어줍니다. 4. 계란이 익으면서 밑바닥이 갈색으로 변하면, 잘게 다진 당근을 넣습니다. 5. 당근이 익으면, 팬을 옆으로 기울여 계란을 말아줍니다. 6. 계란을 접어서 볶음밥을 완성합니다."
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 14.12,
+    "raw_output": "{\"dish_name\": \"치즈 계란 볶음밥\", \"strategy\": \"당근을 잘게 다져 계란과 치즈와 섞어 맛, 향, 식감을 완벽하게 은폐하세요\", \"content\": \"recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 팬에 다진 당근, 계란, 치즈를 넣고 볶습니다. 4. 밥과 함께 섞어 치즈 계란 볶음밥을 만듭니다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근을 잘게 다져 계란과 치즈와 섞어 맛, 향, 식감을 완벽하게 은폐하세요",
+      "content": "recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 팬에 다진 당근, 계란, 치즈를 넣고 볶습니다. 4. 밥과 함께 섞어 치즈 계란 볶음밥을 만듭니다."
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 10.68,
+    "raw_output": "{\"dish_name\": \"치즈 계란 볶음밥\", \"strategy\": \"당근을 잘게 다져 계란과 치즈 속에 숨김\", \"content\": \"recipe : 1. 당근을 잘게 다진다. 2. 계란과 치즈를 볶음밥에 넣는다. 3. 다진 당근을 마지막에 넣고 한번 더 볶는다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근을 잘게 다져 계란과 치즈 속에 숨김",
+      "content": "recipe : 1. 당근을 잘게 다진다. 2. 계란과 치즈를 볶음밥에 넣는다. 3. 다진 당근을 마지막에 넣고 한번 더 볶는다."
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 12.08,
+    "raw_output": "{\"dish_name\": \"치즈 계란말이\", \"strategy\": \"당근을 잘게 다져 계란과 치즈 속에 숨김\", \"content\": \"recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 잘게 다진 당근을 넣고 섞습니다. 4. 계란 혼합물을 프라이팬에 부어 계란말이를 만듭니다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 계란말이",
+      "strategy": "당근을 잘게 다져 계란과 치즈 속에 숨김",
+      "content": "recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 잘게 다진 당근을 넣고 섞습니다. 4. 계란 혼합물을 프라이팬에 부어 계란말이를 만듭니다."
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 8.3,
+    "raw_output": "{\"strategy\": \"한글로 작성\", \"content\": \"우주에서 온 특별한 치즈 계란 볶음밥을 맛보세요, 달콤하고 쫄깃한 달걀과 쫄깃한 치즈가 우주선처럼 섞여 있어요. 우주 셰프가 직접 요리한 맛있는 별미랍니다!\"}",
+    "parsed_output": {
+      "strategy": "한글로 작성",
+      "content": "우주에서 온 특별한 치즈 계란 볶음밥을 맛보세요, 달콤하고 쫄깃한 달걀과 쫄깃한 치즈가 우주선처럼 섞여 있어요. 우주 셰프가 직접 요리한 맛있는 별미랍니다!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 6.83,
+    "raw_output": "{\"strategy\": \"한글로 작성\", \"content\": \"우주에서 온 특별한 치즈 계란 볶음밥을 맛보세요, 달콤하고 쫄깃한 달걀과 쫄깃한 치즈가 우주선처럼 섞여 있어요!\"}",
+    "parsed_output": {
+      "strategy": "한글로 작성",
+      "content": "우주에서 온 특별한 치즈 계란 볶음밥을 맛보세요, 달콤하고 쫄깃한 달걀과 쫄깃한 치즈가 우주선처럼 섞여 있어요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 9.56,
+    "raw_output": "{\"strategy\": \"우주에서 온 치즈 계란 볶음밥을 상상해 보세요, 마치 우주선이 맛있는 치즈 계란 볶음밥을 가득 실어 지구로 날아오는 것처럼요. 우주선에서 나온 치즈 계란 볶음밥은 정말정말 맛있어요!\", \"content\": \"우주선에서 온 치즈 계란 볶음밥을 맛보세요!\"}",
+    "parsed_output": {
+      "strategy": "우주에서 온 치즈 계란 볶음밥을 상상해 보세요, 마치 우주선이 맛있는 치즈 계란 볶음밥을 가득 실어 지구로 날아오는 것처럼요. 우주선에서 나온 치즈 계란 볶음밥은 정말정말 맛있어요!",
+      "content": "우주선에서 온 치즈 계란 볶음밥을 맛보세요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 6.77,
+    "raw_output": "{\"strategy\": \"한글로 작성\", \"content\": \"우주에서 온 특별한 치즈 계란 볶음밥을 맛보세요, 달콤하고 쫄깃한 달걀과 쫄깃한 치즈가 우주선처럼 섞여 있어요!\"}",
+    "parsed_output": {
+      "strategy": "한글로 작성",
+      "content": "우주에서 온 특별한 치즈 계란 볶음밥을 맛보세요, 달콤하고 쫄깃한 달걀과 쫄깃한 치즈가 우주선처럼 섞여 있어요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 7.15,
+    "raw_output": "{\"strategy\": \"치즈 계란 볶음밥을 우주로 가는 맛있는 우주선으로 상상해봐\", \"content\": \"우주로 떠나는 맛있는 우주선, 치즈 계란 볶음밥을 타고 맛있는 모험을 떠나자!\"}",
+    "parsed_output": {
+      "strategy": "치즈 계란 볶음밥을 우주로 가는 맛있는 우주선으로 상상해봐",
+      "content": "우주로 떠나는 맛있는 우주선, 치즈 계란 볶음밥을 타고 맛있는 모험을 떠나자!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 7.82,
+    "raw_output": "{\"strategy\": \"치즈 계란 볶음밥을 우주 탐험의 맛있는 우주선으로 상상해보세요\", \"content\": \"우주 탐험을 떠나듯이 치즈 계란 볶음밥을 맛보세요, 우주선처럼 맛있고 영양 가득한 한 끼입니다!\"}",
+    "parsed_output": {
+      "strategy": "치즈 계란 볶음밥을 우주 탐험의 맛있는 우주선으로 상상해보세요",
+      "content": "우주 탐험을 떠나듯이 치즈 계란 볶음밥을 맛보세요, 우주선처럼 맛있고 영양 가득한 한 끼입니다!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 9.53,
+    "raw_output": "{\"strategy\": \"치즈 계란 볶음밥을 우주에서 온 특별한 요리처럼 상상해봐요\", \"content\": \"우주 셰프가 치즈 계란 볶음밥을 만들 때, 달의 모래와 별똥별 가루를 뿌려서 맛있게 만들어요. 이 요리를 먹으면 우주 탐험가가 될 수 있어요!\"}",
+    "parsed_output": {
+      "strategy": "치즈 계란 볶음밥을 우주에서 온 특별한 요리처럼 상상해봐요",
+      "content": "우주 셰프가 치즈 계란 볶음밥을 만들 때, 달의 모래와 별똥별 가루를 뿌려서 맛있게 만들어요. 이 요리를 먹으면 우주 탐험가가 될 수 있어요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란말이"
+    },
+    "status": "success",
+    "elapsed_sec": 9.26,
+    "raw_output": "{\"strategy\": \"치즈 계란말이를 우주에서 온 특별한 요리로 상상해 보세요\", \"content\": \"우주 셰프가 치즈 계란말이를 만들 때, 달의 신비로운 달빛을 뿌려 맛과 모양이 정말 멋져졌대요. 맛보면 우주 탐험을 떠나는 기분이 들 거예요!\"}",
+    "parsed_output": {
+      "strategy": "치즈 계란말이를 우주에서 온 특별한 요리로 상상해 보세요",
+      "content": "우주 셰프가 치즈 계란말이를 만들 때, 달의 신비로운 달빛을 뿌려 맛과 모양이 정말 멋져졌대요. 맛보면 우주 탐험을 떠나는 기분이 들 거예요!"
+    }
+  }
+]

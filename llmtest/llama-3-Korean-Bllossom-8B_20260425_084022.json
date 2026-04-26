@@ -1,0 +1,280 @@
+[
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 12.8,
+    "raw_output": "{\n  \"dish_name\": \"치즈 케이크\",\n  \"strategy\": \"당근의 맛과 향을 은폐하기 위해 치즈와 계란을 사용하여 케이크를 만들었다.\",\n  \"content\": \"1. 당근을 매우 작게 썰어 물에 데쳐서 물기를 제거한다. 2. 계란을 풀어 물에 데친 당근을 넣고 잘 섞는다. 3. 치즈를 추가하여 잘 섞은 후, 반죽을 만든다. 4. 반죽을 케이크 틀에 담아 구워서 오븐에서 구워준다. 5. 완성된 케이크를 냉장고에 넣어 식혀서 먹는다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "당근의 맛과 향을 은폐하기 위해 치즈와 계란을 사용하여 케이크를 만들었다.",
+      "content": "1. 당근을 매우 작게 썰어 물에 데쳐서 물기를 제거한다. 2. 계란을 풀어 물에 데친 당근을 넣고 잘 섞는다. 3. 치즈를 추가하여 잘 섞은 후, 반죽을 만든다. 4. 반죽을 케이크 틀에 담아 구워서 오븐에서 구워준다. 5. 완성된 케이크를 냉장고에 넣어 식혀서 먹는다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 11.41,
+    "raw_output": "{\n  \"dish_name\": \"치즈 케이크\",\n  \"strategy\": \"당근을 매우 작게 썰어 치즈와 함께 혼합하여 케이크의 재료로 넣어, 당근의 맛과 향을 은폐하고 식감은 치즈가 부드럽게 감싸줌으로써 숨기었습니다.\",\n  \"content\": \"1. 당근과 계란을 잘게 썰어 혼합합니다. 2. 치즈를 잘게 썰어 혼합물에 넣고 잘 섞습니다. 3. 혼합물을 케이크 틀에 넣고 오븐에서 구워줍니다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "당근을 매우 작게 썰어 치즈와 함께 혼합하여 케이크의 재료로 넣어, 당근의 맛과 향을 은폐하고 식감은 치즈가 부드럽게 감싸줌으로써 숨기었습니다.",
+      "content": "1. 당근과 계란을 잘게 썰어 혼합합니다. 2. 치즈를 잘게 썰어 혼합물에 넣고 잘 섞습니다. 3. 혼합물을 케이크 틀에 넣고 오븐에서 구워줍니다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 14.38,
+    "raw_output": "{\n  \"dish_name\": \"당근을 은폐한 치즈 케이크\",\n  \"strategy\": \"당근을 매우 작게 썰어 치즈와 함께 혼합하여 계란으로 감싸고, 계란을 팬에 구워서 은폐하는 전략을 사용했다.\",\n  \"content\": \"1. 당근을 매우 작게 썰어 냉장고에 30분 정도 보관하여 물기를 제거한다.\n2. 계란을 깨서 흰자와 노른자로 분리한다.\n3. 노른자에 당근과 치즈를 잘 섞어 혼합한다.\n4. 흰자에 혼합물을 넣고 잘 섞어 계란을 만든다.\n5. 팬에 기름을 두르고 중간 불에서 계란을 구워서 완성한다.\"",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "{\n  \"dish_name\": \"당근을 은폐한 치즈 케이크\",\n  \"strategy\": \"당근을 매우 작게 썰어 치즈와 함께 혼합하여 계란으로 감싸고, 계란을 팬에 구워서 은폐하는 전략을 사용했다.\",\n  \"content\": \"1. 당근을 매우 작게 썰어 냉장고에 30분 정도 보관하여 물기를 제거한다.\n2. 계란을 깨서 흰자와 노른자로 분리한다.\n3. 노른자에 당근과 치즈를 잘 섞어 혼합한다.\n4. 흰자에 혼합물을 넣고 잘 섞어 계란을 만든다.\n5. 팬에 기름을 두르고 중간 불에서 계란을 구워서 완성한다.\""
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 18.78,
+    "raw_output": "{\n  \"dish_name\": \"치즈 케이크\",\n  \"strategy\": \"당근을 잘게 썰어 치즈와 함께 혼합하여 케이크의 재료로 사용하여 당근의 맛과 향을 은폐하고, 계란을 이용해 부드러운 식감을 줍니다.\",\n  \"content\": \"1. 당근을 잘게 썰어 물에 불리며 익힙니다. 2. 익힌 당근을 체에 걸러 물기를 빼고, 치즈와 함께 잘 섞어줍니다. 3. 계란을 풀어 치즈와 당근 혼합물에 넣고 잘 섞어줍니다. 4. 혼합물에 밀가루, 설탕, 소금, 후추를 넣고 잘 섞어줍니다. 5. 혼합물의 양을 체에 통과시켜 부드러운 식감을 줍니다. 6. 혼합물을 케이크 틀에 넣고 180도 오븐에서 30분간 구워줍니다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "당근을 잘게 썰어 치즈와 함께 혼합하여 케이크의 재료로 사용하여 당근의 맛과 향을 은폐하고, 계란을 이용해 부드러운 식감을 줍니다.",
+      "content": "1. 당근을 잘게 썰어 물에 불리며 익힙니다. 2. 익힌 당근을 체에 걸러 물기를 빼고, 치즈와 함께 잘 섞어줍니다. 3. 계란을 풀어 치즈와 당근 혼합물에 넣고 잘 섞어줍니다. 4. 혼합물에 밀가루, 설탕, 소금, 후추를 넣고 잘 섞어줍니다. 5. 혼합물의 양을 체에 통과시켜 부드러운 식감을 줍니다. 6. 혼합물을 케이크 틀에 넣고 180도 오븐에서 30분간 구워줍니다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 8.77,
+    "raw_output": "{\"dish_name\": \"치즈 케이크\", \"strategy\": \"계란을 이용해 당근의 맛과 향을 완전히 숨기고, 치즈를 이용해 당근의 식감을 은폐\", \"content\": \"recipe : 1. 당근을 얇게 썬다. 2. 계란을 이용해 당근을 감싸고, 치즈를 얇게 썬다. 3. 오븐에서 구워서 완성\"}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "계란을 이용해 당근의 맛과 향을 완전히 숨기고, 치즈를 이용해 당근의 식감을 은폐",
+      "content": "recipe : 1. 당근을 얇게 썬다. 2. 계란을 이용해 당근을 감싸고, 치즈를 얇게 썬다. 3. 오븐에서 구워서 완성"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 9.72,
+    "raw_output": "{\"dish_name\": \"치즈 케이크\", \"strategy\": \"계란을 이용해 당근을 잘게 다지고 치즈를 넣어 당근의 맛과 향을 완전히 숨기고, 치즈의 풍미를 강조하는 방법\", \"content\": \"recipe : 1. 당근을 얇게 썬다. 2. 계란을 풀어 당근에 넣고 잘 섞는다. 3. 치즈를 넣고 잘 섞은 후, 팬에 넣어 조리한다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "계란을 이용해 당근을 잘게 다지고 치즈를 넣어 당근의 맛과 향을 완전히 숨기고, 치즈의 풍미를 강조하는 방법",
+      "content": "recipe : 1. 당근을 얇게 썬다. 2. 계란을 풀어 당근에 넣고 잘 섞는다. 3. 치즈를 넣고 잘 섞은 후, 팬에 넣어 조리한다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 10.31,
+    "raw_output": "{\"dish_name\": \"치즈 케이크\", \"strategy\": \"계란을 이용해 당근의 맛과 향을 완전히 은폐하고, 치즈를 이용해 부드러운 식감을 줌\", \"content\": \"recipe : 1. 당근을 얇게 썰어 계란에 넣고 잘 섞는다. 2. 계란과 당근을 혼합한 것을 팬에 넣고 익힌다. 3. 치즈를 얇게 썰어 위에 올리고, 팬을 덮어 익힌다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "계란을 이용해 당근의 맛과 향을 완전히 은폐하고, 치즈를 이용해 부드러운 식감을 줌",
+      "content": "recipe : 1. 당근을 얇게 썰어 계란에 넣고 잘 섞는다. 2. 계란과 당근을 혼합한 것을 팬에 넣고 익힌다. 3. 치즈를 얇게 썰어 위에 올리고, 팬을 덮어 익힌다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 9.86,
+    "raw_output": "{\"dish_name\": \"치즈 케이크\", \"strategy\": \"계란을 이용해 당근을 완전히 분쇄하고 치즈와 섞어 치즈의 풍미를 이용해 당근의 맛을 은폐\", \"content\": \"recipe : 1. 당근을 매우 작은 조각으로 잘게 썰어 계란에 넣어 완전히 분쇄한다. 2. 치즈를 추가하여 잘 섞어준다. 3. 계란을 팬에 넣고 조리하여 완성한다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "계란을 이용해 당근을 완전히 분쇄하고 치즈와 섞어 치즈의 풍미를 이용해 당근의 맛을 은폐",
+      "content": "recipe : 1. 당근을 매우 작은 조각으로 잘게 썰어 계란에 넣어 완전히 분쇄한다. 2. 치즈를 추가하여 잘 섞어준다. 3. 계란을 팬에 넣고 조리하여 완성한다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_1",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 12.41,
+    "raw_output": "{\"strategy\": \"우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보냈어요.\", \"content\": \"우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보냈어요. 치즈 케이크는 달에 가서 먹은 것처럼 특별한 맛이 있어요. 우주를 탐험하는 동안, 우주선 안에서 치즈 케이크를 먹으며 즐거운 시간을 보냈어요. 치즈 케이크는 우주를 탐험하는 동안, 우주선 안에서 맛있는 시간을 보낼 수 있게 해줘요.\"}",
+    "parsed_output": {
+      "strategy": "우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보냈어요.",
+      "content": "우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보냈어요. 치즈 케이크는 달에 가서 먹은 것처럼 특별한 맛이 있어요. 우주를 탐험하는 동안, 우주선 안에서 치즈 케이크를 먹으며 즐거운 시간을 보냈어요. 치즈 케이크는 우주를 탐험하는 동안, 우주선 안에서 맛있는 시간을 보낼 수 있게 해줘요."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_2",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 5.69,
+    "raw_output": "{\"strategy\": \"우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보내자!\", \"content\": \"우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보내자!\"}",
+    "parsed_output": {
+      "strategy": "우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보내자!",
+      "content": "우주를 탐험하는 동안, 우주선 안에서 맛있는 치즈 케이크를 먹으며 즐거운 시간을 보내자!"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_3",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": null
+    },
+    "status": "skipped",
+    "elapsed_sec": 0,
+    "raw_output": "",
+    "parsed_output": {
+      "skip_reason": "RECIPE dish_name 추출 실패"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_4",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 10.37,
+    "raw_output": "{\"strategy\": \"우주를 탐험하는 아이들에게 치즈 케이크는 별을 탐험하는 것과도 같다. 별은 달콤하고 따뜻한 느낌을 주듯, 치즈 케이크는 맛있는 향기로 아이들의 마음을 따뜻하게 만든다.\", \"content\": \"우주를 탐험하는 것처럼 치즈 케이크를 먹으면, 달콤하고 따뜻한 느낌이 가득합니다. 별을 탐험하는 것과 마찬가지로, 치즈 케이크는 아이들의 마음을 따뜻하게 만들어줍니다.\"}",
+    "parsed_output": {
+      "strategy": "우주를 탐험하는 아이들에게 치즈 케이크는 별을 탐험하는 것과도 같다. 별은 달콤하고 따뜻한 느낌을 주듯, 치즈 케이크는 맛있는 향기로 아이들의 마음을 따뜻하게 만든다.",
+      "content": "우주를 탐험하는 것처럼 치즈 케이크를 먹으면, 달콤하고 따뜻한 느낌이 가득합니다. 별을 탐험하는 것과 마찬가지로, 치즈 케이크는 아이들의 마음을 따뜻하게 만들어줍니다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_5",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 7.03,
+    "raw_output": "{\"strategy\": \"우주의 신비로운 별들이 치즈 케이크의 따뜻한 빛을 감싸고 있어, 그 빛을 따라 치즈 케이크를 먹으면 우주를 탐험하는 듯한 느낌을 받을 수 있어!\", \"content\": \"우주를 탐험하는 듯한 느낌을 받을 수 있는 치즈 케이크를 먹어보세요!\"}",
+    "parsed_output": {
+      "strategy": "우주의 신비로운 별들이 치즈 케이크의 따뜻한 빛을 감싸고 있어, 그 빛을 따라 치즈 케이크를 먹으면 우주를 탐험하는 듯한 느낌을 받을 수 있어!",
+      "content": "우주를 탐험하는 듯한 느낌을 받을 수 있는 치즈 케이크를 먹어보세요!"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_6",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 5.9,
+    "raw_output": "{\"strategy\": \"우주의 신비로운 별들이 치즈 케이크의 부드러운 크림과 함께 춤추는 모습을 상상해보자\", \"content\": \"우주의 별들이 춤추는 치즈 케이크를 먹으면, 너도 우주처럼 자유롭고 행복해질 수 있어!\"}",
+    "parsed_output": {
+      "strategy": "우주의 신비로운 별들이 치즈 케이크의 부드러운 크림과 함께 춤추는 모습을 상상해보자",
+      "content": "우주의 별들이 춤추는 치즈 케이크를 먹으면, 너도 우주처럼 자유롭고 행복해질 수 있어!"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_7",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 5.94,
+    "raw_output": "{\"strategy\": \"우주의 별과 달을 치즈 케이크의 크림과 함께 춤추게 만드는 마법의 힘을 연결\", \"content\": \"우주를 탐험하는 동안 만든 치즈 케이크를 먹으면, 너도 별과 달처럼 빛나는 별을 찾아낼 수 있을 거야!\"}",
+    "parsed_output": {
+      "strategy": "우주의 별과 달을 치즈 케이크의 크림과 함께 춤추게 만드는 마법의 힘을 연결",
+      "content": "우주를 탐험하는 동안 만든 치즈 케이크를 먹으면, 너도 별과 달처럼 빛나는 별을 찾아낼 수 있을 거야!"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_8",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 6.78,
+    "raw_output": "{\"strategy\": \"우주의 신비로운 별들이 치즈 케이크의 따뜻한 빛을 반짝이며, 그 안에 숨겨진 맛의 비밀을 풀어내는 마법의 순간을 상상해보자.\", \"content\": \"우주를 탐험하는 동안 발견한 치즈 케이크는 별들의 빛을 담은 특별한 선물이야!\"}",
+    "parsed_output": {
+      "strategy": "우주의 신비로운 별들이 치즈 케이크의 따뜻한 빛을 반짝이며, 그 안에 숨겨진 맛의 비밀을 풀어내는 마법의 순간을 상상해보자.",
+      "content": "우주를 탐험하는 동안 발견한 치즈 케이크는 별들의 빛을 담은 특별한 선물이야!"
+    }
+  }
+]
