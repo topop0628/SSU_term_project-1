@@ -1,0 +1,270 @@
+{
+  "RECIPE_EVALUATIONS": [
+    {
+      "exp_key": "EXP_1",
+      "evaluation": {
+        "concealment": 5,
+        "feasibility": 20,
+        "specificity": 8,
+        "json_format": 0,
+        "total": 33,
+        "reason": "요리명에 '당근'이 직접 노출되어 은폐성이 매우 낮으며, 출력이 중간에 끊겨 JSON 형식을 갖추지 못했습니다. 동일한 문장을 반복하는 결함이 보입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_2",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 25,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 85,
+        "reason": "요리명을 '치즈 케이크'로 설정하여 은폐성이 훌륭하며 JSON 형식도 완벽합니다. 다만 조리 단계가 3단계로 너무 간략하여 구체성은 떨어집니다."
+      }
+    },
+    {
+      "exp_key": "EXP_3",
+      "evaluation": {
+        "concealment": 5,
+        "feasibility": 20,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 60,
+        "reason": "요리명에 싫어하는 재료인 '당근'을 명시하여 은폐 전략이 실패했습니다. 조리법이 다소 추상적이며 실제 케이크를 만드는 상세 과정이 누락되었습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_4",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 15,
+        "specificity": 5,
+        "json_format": 0,
+        "total": 45,
+        "reason": "특정 문장을 무한 반복하다가 출력이 끊겨 JSON 파싱에 실패했습니다. 은폐 전략 자체는 논리적이었으나 모델의 기술적 결함으로 인해 실현 불가능한 레시피가 되었습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_5",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 22,
+        "specificity": 12,
+        "json_format": 25,
+        "total": 84,
+        "reason": "요리명 선택이 좋고 JSON 형식을 잘 지켰습니다. 오븐에 굽는다는 구체적인 방법이 제시되었으나, 재료의 정확한 분량(g)이 없어 아쉽습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_6",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 25,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 85,
+        "reason": "팬케이크라는 친숙한 메뉴를 선정하여 은폐성을 높였습니다. 3단계의 짧은 구성으로 인해 실제 조리 시 필요한 디테일은 부족한 편입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_7",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 25,
+        "specificity": 18,
+        "json_format": 25,
+        "total": 93,
+        "reason": "180도에서 25분이라는 구체적인 조리 수치를 제시하여 실현 가능성이 높습니다. 당근이 완전히 녹아들게 섞으라는 지침이 아동 영양학적으로 매우 우수합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_8",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 25,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 85,
+        "reason": "EXP_6과 동일한 수준의 무난한 결과물입니다. 아이들이 좋아하는 팬케이크 뒤로 당근을 숨긴 전략이 안정적입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_9",
+      "evaluation": {
+        "concealment": 20,
+        "feasibility": 25,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 80,
+        "reason": "계란찜은 은폐가 다소 어려울 수 있으나 다지기 전략을 택했습니다. 조리 과정이 지나치게 짧아 요리법으로서의 가치는 평이합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_10",
+      "evaluation": {
+        "concealment": 20,
+        "feasibility": 25,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 80,
+        "reason": "EXP_9와 유사한 결과로, JSON 형식을 잘 준수했습니다. 실제 가정에서 만들기 매우 쉬운 메뉴이나 특별한 은폐 비법은 보이지 않습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_11",
+      "evaluation": {
+        "concealment": 20,
+        "feasibility": 15,
+        "specificity": 5,
+        "json_format": 25,
+        "total": 65,
+        "reason": "조리법이 '계란 끓인다, 치즈 넣는다, 완료' 수준으로 매우 무성의하여 요리법으로서의 실질적인 가이드 기능이 없습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_12",
+      "evaluation": {
+        "concealment": 15,
+        "feasibility": 25,
+        "specificity": 12,
+        "json_format": 25,
+        "total": 77,
+        "reason": "당근을 '마지막'에 넣는다는 지시는 은폐성을 크게 저해합니다(당근의 색과 식감이 겉으로 드러남). JSON 형식과 현실성은 확보되었습니다."
+      }
+    }
+  ],
+  "STORY_EVALUATIONS": [
+    {
+      "exp_key": "EXP_1",
+      "evaluation": {
+        "interest_connection": 0,
+        "child_friendliness": 0,
+        "engagement": 0,
+        "conciseness": 0,
+        "total": 0,
+        "reason": "레시피에서 요리명을 추출하지 못해 생성이 건너뛰어졌습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_2",
+      "evaluation": {
+        "interest_connection": 10,
+        "child_friendliness": 5,
+        "engagement": 5,
+        "conciseness": 5,
+        "total": 25,
+        "reason": "모델이 동일한 문장을 무한 반복하여 JSON 형식이 파괴되었습니다. 아이에게 읽어줄 수 없는 수준의 기계적 오류 상태입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_3",
+      "evaluation": {
+        "interest_connection": 15,
+        "child_friendliness": 10,
+        "engagement": 5,
+        "conciseness": 5,
+        "total": 35,
+        "reason": "우주와 별빛 비유를 시도했으나, 뒷부분에서 동일 문장이 수 차례 반복되며 출력이 끊겼습니다. 심각한 루핑 현상으로 인해 전달력이 없습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_4",
+      "evaluation": {
+        "interest_connection": 0,
+        "child_friendliness": 0,
+        "engagement": 0,
+        "conciseness": 0,
+        "total": 0,
+        "reason": "레시피 데이터 부재로 인해 평가 대상이 존재하지 않습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_5",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 10,
+        "engagement": 10,
+        "conciseness": 5,
+        "total": 45,
+        "reason": "우주 마법이라는 좋은 소재를 사용했음에도 불구하고, 동일한 단락을 수 차례 반복 출력하며 JSON을 닫지 못해 파싱 오류가 발생했습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_6",
+      "evaluation": {
+        "interest_connection": 18,
+        "child_friendliness": 10,
+        "engagement": 10,
+        "conciseness": 5,
+        "total": 43,
+        "reason": "우주 탐험에 대한 연결 시도는 좋았으나, '신나는 경험을 할 수 있어!'라는 문장이 무한 반복되는 전형적인 모델 결함을 보였습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_7",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 15,
+        "engagement": 10,
+        "conciseness": 5,
+        "total": 50,
+        "reason": "둥근 계란과 별을 연결하는 창의적인 전략을 세웠으나, 매력적인 문장을 만들라는 지시 사항을 문장 끝에 수십 번 반복하며 비정상적으로 종료되었습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_8",
+      "evaluation": {
+        "interest_connection": 25,
+        "child_friendliness": 25,
+        "engagement": 25,
+        "conciseness": 25,
+        "total": 100,
+        "reason": "유일하게 루핑 현상 없이 완벽하게 생성된 실험입니다. 별빛처럼 따뜻한 느낌이라는 비유와 우주 탐험 스토리가 아이의 눈높이에 완벽히 부합합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_9",
+      "evaluation": {
+        "interest_connection": 15,
+        "child_friendliness": 10,
+        "engagement": 5,
+        "conciseness": 5,
+        "total": 35,
+        "reason": "우주 탐사사라는 흥미로운 설정에도 불구하고 문장을 계속 반복하며 JSON 형식을 지키지 못해 실제 활용이 불가능합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_10",
+      "evaluation": {
+        "interest_connection": 15,
+        "child_friendliness": 10,
+        "engagement": 5,
+        "conciseness": 5,
+        "total": 35,
+        "reason": "특별한 우주 요리 도구라는 소재는 좋으나 반복적인 문장 출력으로 인해 정보가 산만하고 형식이 파손되었습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_11",
+      "evaluation": {
+        "interest_connection": 18,
+        "child_friendliness": 25,
+        "engagement": 18,
+        "conciseness": 25,
+        "total": 86,
+        "reason": "매우 간결하지만 우주라는 테마를 잘 담아냈습니다. JSON 형식도 준수했으나 다른 성공 사례에 비해 상상력을 자극하는 스토리의 깊이는 얕습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_12",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 15,
+        "engagement": 10,
+        "conciseness": 5,
+        "total": 50,
+        "reason": "우주 요리사와 지구인의 만남이라는 방대한 서사를 시도했으나, '우주에서 온 특별한 에너지를 얻을 수 있어'라는 문구에서 무한 루프에 빠져 실패했습니다."
+      }
+    }
+  ]
+}

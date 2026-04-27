@@ -1,0 +1,72 @@
+[
+  {
+    "model": "Trillion-7B-preview",
+    "library": "RECIPE",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 7.6,
+    "raw_output": "```json\n{\"dish_name\": \"달콤한 치즈 오믈렛\", \"strategy\": \"당근을 곱게 다져 치즈와 계란에 섞어 향과 맛을 숨김\", \"content\": \"recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 치즈를 섞는다. 3. 팬에 기름을 두르고, 혼합물을 부쳐낸다. 4. 익힌 후, 접시에 담아낸다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "달콤한 치즈 오믈렛",
+      "strategy": "당근을 곱게 다져 치즈와 계란에 섞어 향과 맛을 숨김",
+      "content": "recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 치즈를 섞는다. 3. 팬에 기름을 두르고, 혼합물을 부쳐낸다. 4. 익힌 후, 접시에 담아낸다."
+    }
+  },
+  {
+    "model": "Trillion-7B-preview",
+    "library": "RECIPE",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 7.28,
+    "raw_output": "```json\n{\n  \"dish_name\": \"달콤한 치즈 오믈렛\",\n  \"strategy\": \"당근을 곱게 다져 치즈와 계란에 섞어 맛과 향이 치즈와 계란에 완전히 흡수되도록 함.\",\n  \"content\": \"recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 치즈를 넣고 섞는다. 3. 팬에 기름을 두르고 계란 혼합물을 부쳐낸다. 4. 익힌 후 접시에 담아낸다.\"\n}\n```",
+    "parsed_output": {
+      "dish_name": "달콤한 치즈 오믈렛",
+      "strategy": "당근을 곱게 다져 치즈와 계란에 섞어 맛과 향이 치즈와 계란에 완전히 흡수되도록 함.",
+      "content": "recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 치즈를 넣고 섞는다. 3. 팬에 기름을 두르고 계란 혼합물을 부쳐낸다. 4. 익힌 후 접시에 담아낸다."
+    }
+  },
+  {
+    "model": "Trillion-7B-preview",
+    "library": "STORY",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "달콤한 치즈 오믈렛"
+    },
+    "status": "success",
+    "elapsed_sec": 6.03,
+    "raw_output": "```json\n{\n  \"strategy\": \"달콤한 치즈 오믈렛을 우주 탐험을 위한 특별한 에너지 음식으로 상상해봐. 이 오믈렛을 먹으면 우주 비행사처럼 힘차게 우주를 날아다닐 수 있을 거야!\",\n  \"content\": \"우주 비행사가 되기 위한 첫걸음으로, 달콤한 치즈 오믈렛을 먹어보자! 먹으면 우주만큼 달콤한 힘이 생길 거야.\"\n}\n```",
+    "parsed_output": {
+      "strategy": "달콤한 치즈 오믈렛을 우주 탐험을 위한 특별한 에너지 음식으로 상상해봐. 이 오믈렛을 먹으면 우주 비행사처럼 힘차게 우주를 날아다닐 수 있을 거야!",
+      "content": "우주 비행사가 되기 위한 첫걸음으로, 달콤한 치즈 오믈렛을 먹어보자! 먹으면 우주만큼 달콤한 힘이 생길 거야."
+    }
+  },
+  {
+    "model": "Trillion-7B-preview",
+    "library": "STORY",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "달콤한 치즈 오믈렛"
+    },
+    "status": "success",
+    "elapsed_sec": 6.21,
+    "raw_output": "```json\n{\n  \"strategy\": \"달콤한 치즈 오믈렛을 우주 탐험가가 먹는 특별한 에너지 음식으로 상상하자. 이 오믈렛을 먹으면 우주 비행사처럼 힘이 세지고, 별들 사이를 날아다니는 꿈을 꿀 수 있어.\",\n  \"content\": \"우주 탐험가가 먹는 달콤한 치즈 오믈렛을 먹으면, 네가 우주 비행사가 되어 별들 사이를 날아다닐 수 있을 거야!\"\n}\n```",
+    "parsed_output": {
+      "strategy": "달콤한 치즈 오믈렛을 우주 탐험가가 먹는 특별한 에너지 음식으로 상상하자. 이 오믈렛을 먹으면 우주 비행사처럼 힘이 세지고, 별들 사이를 날아다니는 꿈을 꿀 수 있어.",
+      "content": "우주 탐험가가 먹는 달콤한 치즈 오믈렛을 먹으면, 네가 우주 비행사가 되어 별들 사이를 날아다닐 수 있을 거야!"
+    }
+  }
+]

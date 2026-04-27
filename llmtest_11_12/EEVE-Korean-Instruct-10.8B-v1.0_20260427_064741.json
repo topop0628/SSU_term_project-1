@@ -1,0 +1,72 @@
+[
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 14.75,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 볶음밥\",\n  \"strategy\": \"당근을 잘게 다져서 계란과 치즈와 섞어 맛, 향, 식감을 완벽하게 은폐하세요\",\n  \"content\": \"recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 팬에 다진 당근, 계란, 치즈를 넣고 볶습니다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근을 잘게 다져서 계란과 치즈와 섞어 맛, 향, 식감을 완벽하게 은폐하세요",
+      "content": "recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 팬에 다진 당근, 계란, 치즈를 넣고 볶습니다."
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 14.97,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 볶음밥\",\n  \"strategy\": \"당근을 잘게 다져서 계란과 치즈와 섞어 맛, 향, 식감을 완벽하게 은폐하세요\",\n  \"content\": \"recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 팬에 다진 당근, 계란, 치즈를 넣고 볶습니다. 4. 볶음밥을 접시에 담고, 원하는 토핑을 올립니다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음밥",
+      "strategy": "당근을 잘게 다져서 계란과 치즈와 섞어 맛, 향, 식감을 완벽하게 은폐하세요",
+      "content": "recipe : 1. 당근을 잘게 다집니다. 2. 계란과 치즈를 섞습니다. 3. 팬에 다진 당근, 계란, 치즈를 넣고 볶습니다. 4. 볶음밥을 접시에 담고, 원하는 토핑을 올립니다."
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 15.53,
+    "raw_output": "{\n  \"strategy\": \"우주에서 온 특별한 치즈 계란 볶음밥을 소개합니다!\",\n  \"content\": \"이 맛있는 요리를 맛보면, 우주 탐험가처럼 우주를 여행하는 기분이 들 거예요. 치즈 계란 볶음밥을 한 입 베어 물면, 우주의 별들처럼 반짝이는 치즈가 혀를 감싸며, 달의 흙처럼 바삭한 계란이 씹는 맛을 더해줄 거예요. 이 요리를 맛보면, 우주 탐험을 떠나는 것처럼 신나고 모험적인 기분이 들 거예요!\"\n}",
+    "parsed_output": {
+      "strategy": "우주에서 온 특별한 치즈 계란 볶음밥을 소개합니다!",
+      "content": "이 맛있는 요리를 맛보면, 우주 탐험가처럼 우주를 여행하는 기분이 들 거예요. 치즈 계란 볶음밥을 한 입 베어 물면, 우주의 별들처럼 반짝이는 치즈가 혀를 감싸며, 달의 흙처럼 바삭한 계란이 씹는 맛을 더해줄 거예요. 이 요리를 맛보면, 우주 탐험을 떠나는 것처럼 신나고 모험적인 기분이 들 거예요!"
+    }
+  },
+  {
+    "model": "EEVE-Korean-Instruct-10.8B-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음밥"
+    },
+    "status": "success",
+    "elapsed_sec": 9.99,
+    "raw_output": "{\n  \"strategy\": \"우주에서 온 특별한 치즈 계란 볶음밥을 소개합니다!\",\n  \"content\": \"셰프가 우주에서 가져온 치즈로 만든 치즈 계란 볶음밥을 맛보세요. 이 요리는 우주에서 온 특별한 재료로 만들어져, 마치 우주 탐험을 하는 것처럼 맛있게 먹을 수 있어요!\"\n}",
+    "parsed_output": {
+      "strategy": "우주에서 온 특별한 치즈 계란 볶음밥을 소개합니다!",
+      "content": "셰프가 우주에서 가져온 치즈로 만든 치즈 계란 볶음밥을 맛보세요. 이 요리는 우주에서 온 특별한 재료로 만들어져, 마치 우주 탐험을 하는 것처럼 맛있게 먹을 수 있어요!"
+    }
+  }
+]

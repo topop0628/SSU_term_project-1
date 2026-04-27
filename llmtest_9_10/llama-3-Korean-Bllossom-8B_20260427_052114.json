@@ -1,0 +1,72 @@
+[
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 9.74,
+    "raw_output": "{\"dish_name\": \"치즈 샌드위치\", \"strategy\": \"치즈와 계란을 잘 섞어 당근의 맛과 향을 완전히 숨기고, 치즈로 감춤\", \"content\": \"recipe : 1. 당근을 잘게 다진다. 2. 치즈와 계란을 섞어 만든 혼합물을 당근에 넣고 잘 섞는다. 3. 치즈를 얇게 썰어 위에 올려 감춤\"}",
+    "parsed_output": {
+      "dish_name": "치즈 샌드위치",
+      "strategy": "치즈와 계란을 잘 섞어 당근의 맛과 향을 완전히 숨기고, 치즈로 감춤",
+      "content": "recipe : 1. 당근을 잘게 다진다. 2. 치즈와 계란을 섞어 만든 혼합물을 당근에 넣고 잘 섞는다. 3. 치즈를 얇게 썰어 위에 올려 감춤"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 10.64,
+    "raw_output": "{\"dish_name\": \"치즈 케이크\", \"strategy\": \"계란을 이용해 당근의 맛과 향을 완전히 숨기고 치즈를 이용해 식감을 조절\", \"content\": \"recipe : 1. 당근을 매우 작은 조각으로 잘게 다진다. 2. 계란을 풀어 물에 넣고 끓인다. 3. 치즈를 넣고 잘 섞는다. 4. 잘게 다진 당근을 넣고 다시 섞는다. 5. 팬에 넣고 조리한다.\"}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "계란을 이용해 당근의 맛과 향을 완전히 숨기고 치즈를 이용해 식감을 조절",
+      "content": "recipe : 1. 당근을 매우 작은 조각으로 잘게 다진다. 2. 계란을 풀어 물에 넣고 끓인다. 3. 치즈를 넣고 잘 섞는다. 4. 잘게 다진 당근을 넣고 다시 섞는다. 5. 팬에 넣고 조리한다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 샌드위치"
+    },
+    "status": "success",
+    "elapsed_sec": 7.13,
+    "raw_output": "{\"strategy\": \"우주의 별과 달을 떠다니는 셰프의 마법을 이용해 치즈 샌드위치를 만들었다\", \"content\": \"우주를 탐험하는 셰프가 달에서 내려와 치즈 샌드위치를 만들어 주면, 그 치즈 샌드위치는 우주의 별처럼 빛나는 맛이 있어!\"}",
+    "parsed_output": {
+      "strategy": "우주의 별과 달을 떠다니는 셰프의 마법을 이용해 치즈 샌드위치를 만들었다",
+      "content": "우주를 탐험하는 셰프가 달에서 내려와 치즈 샌드위치를 만들어 주면, 그 치즈 샌드위치는 우주의 별처럼 빛나는 맛이 있어!"
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "success",
+    "elapsed_sec": 9.2,
+    "raw_output": "{\"strategy\": \"우주의 신비로운 별들이 치즈 케이크를 만들어내는 마법의 힘을 이용해 만들었다는 전략을 사용\", \"content\": \"우주의 별들이 치즈 케이크를 만들어내는 마법의 힘을 이용해, 너에게 특별한 치즈 케이크를 만들어 드릴게. 이 치즈 케이크를 먹으면, 너도 우주의 별처럼 빛나는 별이 되어, 어떤 어려운 과제도 쉽게 해결할 수 있을 거야!\"}",
+    "parsed_output": {
+      "strategy": "우주의 신비로운 별들이 치즈 케이크를 만들어내는 마법의 힘을 이용해 만들었다는 전략을 사용",
+      "content": "우주의 별들이 치즈 케이크를 만들어내는 마법의 힘을 이용해, 너에게 특별한 치즈 케이크를 만들어 드릴게. 이 치즈 케이크를 먹으면, 너도 우주의 별처럼 빛나는 별이 되어, 어떤 어려운 과제도 쉽게 해결할 수 있을 거야!"
+    }
+  }
+]

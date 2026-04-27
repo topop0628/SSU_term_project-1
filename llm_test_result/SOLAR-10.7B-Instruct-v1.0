@@ -1,0 +1,270 @@
+{
+  "RECIPE_EVALUATIONS": [
+    {
+      "exp_key": "EXP_1",
+      "evaluation": {
+        "concealment": 5,
+        "feasibility": 5,
+        "specificity": 5,
+        "json_format": 25,
+        "total": 40,
+        "reason": "요리명에 싫어하는 재료인 당근이 직접 노출되었으며, '잘 쉬어', '5분 동안 썸' 등 조리법의 한국어 문장이 비정상적이라 실제 조리가 불가능합니다. JSON 형식은 유지했으나 내용의 질이 매우 낮습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_2",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 25,
+        "specificity": 22,
+        "json_format": 25,
+        "total": 97,
+        "reason": "영문으로 출력되었으나 은폐 전략과 단계별 조리법이 매우 구체적이고 현실적입니다. 당근을 갈아서(Shred) 치즈와 구워내는 방식은 아동 영양학적으로 매우 훌륭한 은폐 기술입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_3",
+      "evaluation": {
+        "concealment": 5,
+        "feasibility": 0,
+        "specificity": 0,
+        "json_format": 0,
+        "total": 5,
+        "reason": "요리명에 당근이 노출되었을 뿐만 아니라, '1/2'이라는 숫자를 무한 반복 출력하며 JSON 형식이 파괴되었습니다. 모델의 심각한 오류로 인해 레시피로서의 가치가 전혀 없습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_4",
+      "evaluation": {
+        "concealment": 10,
+        "feasibility": 10,
+        "specificity": 12,
+        "json_format": 25,
+        "total": 57,
+        "reason": "요리명에 당근이 포함되었으며, 한국어와 한자가 무분별하게 혼용되어 가독성이 매우 떨어집니다. 조리 단계는 구분되어 있으나 '오므리 煮(자)' 등 일반적인 부모가 이해하기 어려운 표현이 많습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_5",
+      "evaluation": {
+        "concealment": 10,
+        "feasibility": 5,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 50,
+        "reason": "한국어, 한자, 일본어(細く, お待ちします)가 섞여 있어 조리법을 파악하기 어렵습니다. 언어 혼착 현상으로 인해 실제 가정에서 가이드로 사용하기에 매우 부적절합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_6",
+      "evaluation": {
+        "concealment": 10,
+        "feasibility": 5,
+        "specificity": 5,
+        "json_format": 25,
+        "total": 45,
+        "reason": "레시피 내용이 대부분 일본어로 작성되어 한국어 기반 서비스의 결과물로서 실격 수준입니다. 당근을 마지막에 다시 넣는다는 단계는 은폐성 측면에서도 부적절합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_7",
+      "evaluation": {
+        "concealment": 10,
+        "feasibility": 18,
+        "specificity": 15,
+        "json_format": 25,
+        "total": 68,
+        "reason": "요리명에 당근이 노출된 점은 아쉽지만, 앞선 실험들에 비해 한국어 문장이 비교적 이해 가능한 수준입니다. '발깨지 못하게' 등 부자연스러운 표현은 있으나 조리 순서는 논리적입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_8",
+      "evaluation": {
+        "concealment": 5,
+        "feasibility": 5,
+        "specificity": 5,
+        "json_format": 0,
+        "total": 15,
+        "reason": "JSON 형식을 무시하고 모델의 내부 사고 과정을 그대로 노출했습니다. '스르르 스르르 쁓어' 등 의미를 알 수 없는 단어를 사용하여 레시피로서 기능하지 못합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_9",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 25,
+        "specificity": 23,
+        "json_format": 20,
+        "total": 93,
+        "reason": "영문 출력이지만 프리타타라는 메뉴 선정과 당근을 치즈에 섞어 굽는 방식이 매우 실용적입니다. 불필요한 서두 문구가 포함되어 JSON 형식 점수에서 소폭 감점되었습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_10",
+      "evaluation": {
+        "concealment": 0,
+        "feasibility": 0,
+        "specificity": 0,
+        "json_format": 0,
+        "total": 0,
+        "reason": "레시피를 생성하지 않고 프롬프트 지시사항과 예시(Bad Case)를 그대로 출력하는 심각한 오류가 발생했습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_11",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 10,
+        "specificity": 12,
+        "json_format": 25,
+        "total": 72,
+        "reason": "요리명에서 재료를 잘 숨겼으나, '계랅이', '치즓', 'ㄴㅁ' 등 심각한 오타와 비문이 가득하여 신뢰도가 낮습니다. 조리법 자체는 롤 형태라 은폐에 유리한 구성입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_12",
+      "evaluation": {
+        "concealment": 25,
+        "feasibility": 15,
+        "specificity": 10,
+        "json_format": 25,
+        "total": 75,
+        "reason": "오타('치즣', '오낭')가 있으나 조리 단계가 간결하여 앞선 실험보다는 이해하기 쉽습니다. 하지만 20분간 굽는다는 정보 외에 구체적인 불 조절이나 재료 손질법이 부족합니다."
+      }
+    }
+  ],
+  "STORY_EVALUATIONS": [
+    {
+      "exp_key": "EXP_1",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 5,
+        "engagement": 12,
+        "conciseness": 15,
+        "total": 52,
+        "reason": "우주 테마와 요리를 연결하려 노력했으나, '치즮', '美서운한' 등 존재하지 않는 단어를 사용하여 아동에게 읽어주기 부적절합니다. 비유가 추상적이라 아이가 이해하기 어렵습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_2",
+      "evaluation": {
+        "interest_connection": 18,
+        "child_friendliness": 10,
+        "engagement": 15,
+        "conciseness": 20,
+        "total": 63,
+        "reason": "영문 요리명과 '카로트' 같은 외래어를 혼용하여 아동 친화성이 낮습니다. 우주 별들 같은 야채 조각이라는 표현은 흥미롭지만 문장이 매끄럽지 않습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_3",
+      "evaluation": {
+        "interest_connection": 0,
+        "child_friendliness": 0,
+        "engagement": 0,
+        "conciseness": 0,
+        "total": 0,
+        "reason": "레시피 생성 실패로 인해 평가 대상이 존재하지 않습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_4",
+      "evaluation": {
+        "interest_connection": 15,
+        "child_friendliness": 15,
+        "engagement": 12,
+        "conciseness": 18,
+        "total": 60,
+        "reason": "우주 정거장에서 먹는 음식이라는 설정은 좋지만, 아이에게 질문을 던지는 방식이 다소 투박합니다. '오므리 Rice' 같은 혼용된 언어 사용이 아쉽습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_5",
+      "evaluation": {
+        "interest_connection": 22,
+        "child_friendliness": 12,
+        "engagement": 20,
+        "conciseness": 23,
+        "total": 77,
+        "reason": "배가 별로 가득해진다는 상상력 자극이 훌륭합니다. '대모헌'이라는 오타가 아쉽지만, 전반적으로 아이들이 좋아할 만한 능동적인 스토리를 담고 있습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_6",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 10,
+        "engagement": 15,
+        "conciseness": 10,
+        "total": 55,
+        "reason": "전략과 내용이 완전히 동일하며, '미취학 아동 별'이라는 기계적인 단어를 사용하여 아동 심리 전문가로서 매우 부적절하다고 판단됩니다."
+      }
+    },
+    {
+      "exp_key": "EXP_7",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 10,
+        "engagement": 15,
+        "conciseness": 10,
+        "total": 55,
+        "reason": "EXP_6과 마찬가지로 전략과 내용이 중복되며, '美合'과 같은 한자 표현을 사용하여 아이들의 눈높이에 맞지 않는 언어 수준을 보입니다."
+      }
+    },
+    {
+      "exp_key": "EXP_8",
+      "evaluation": {
+        "interest_connection": 0,
+        "child_friendliness": 0,
+        "engagement": 0,
+        "conciseness": 0,
+        "total": 0,
+        "reason": "레시피 생성 실패로 인해 평가 대상이 존재하지 않습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_9",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 8,
+        "engagement": 15,
+        "conciseness": 5,
+        "total": 48,
+        "reason": "JSON 형식을 지키지 않고 단계별 사고 과정을 모두 출력했습니다. '로ket' 등 언어 파괴 현상이 심각하여 아동용 문장으로 사용이 불가능합니다."
+      }
+    },
+    {
+      "exp_key": "EXP_10",
+      "evaluation": {
+        "interest_connection": 0,
+        "child_friendliness": 0,
+        "engagement": 0,
+        "conciseness": 0,
+        "total": 0,
+        "reason": "레시피 데이터 부재로 인해 평가가 진행되지 않았습니다."
+      }
+    },
+    {
+      "exp_key": "EXP_11",
+      "evaluation": {
+        "interest_connection": 22,
+        "child_friendliness": 10,
+        "engagement": 18,
+        "conciseness": 20,
+        "total": 70,
+        "reason": "입안에서 별들 사이를 여행한다는 감각적인 비유가 좋습니다. 다만 '계랅이', '우주 터락' 등 오타가 심해 실제 대화에 적용하기에는 한계가 큽니다."
+      }
+    },
+    {
+      "exp_key": "EXP_12",
+      "evaluation": {
+        "interest_connection": 20,
+        "child_friendliness": 22,
+        "engagement": 18,
+        "conciseness": 25,
+        "total": 85,
+        "reason": "오타 없이 간결하게 작성된 편입니다. 입안이 요리 행성들로 채워진다는 비유가 직관적이며 아이들의 흥미를 유발하기에 충분합니다."
+      }
+    }
+  ]
+}

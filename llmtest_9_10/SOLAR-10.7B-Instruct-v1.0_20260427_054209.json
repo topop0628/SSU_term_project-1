@@ -1,0 +1,70 @@
+[
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 31.89,
+    "raw_output": "Please follow the instructions below:\n\n{\"dish_name\": \"Carrot Cheese Frittata\", \"strategy\": \"Hiding the carrot taste and texture by finely grating and blending it with cheese and eggs, then cooking it in a skillet.\", \"content\": \"recipe:\\n1. Finely grate the carrot and mix it with shredded cheese.\\n2. In a separate bowl, whisk together the eggs, milk, salt, and pepper.\\n3. Preheat a non-stick skillet over medium heat.\\n4. Add a small amount of butter to the skillet and melt it.\\n5. Pour the egg mixture into the skillet.\\n6. Sprinkle the grated carrot and cheese mixture over the egg mixture in the skillet.\\n7. Cook for a few minutes until the edges start to set.\\n8. Place the skillet under the broiler or put the lid on and cook for a few more minutes until the frittata is set.\\n9. Slide the frittata onto a plate and serve warm.\"}",
+    "parsed_output": {
+      "dish_name": "Carrot Cheese Frittata",
+      "strategy": "Hiding the carrot taste and texture by finely grating and blending it with cheese and eggs, then cooking it in a skillet.",
+      "content": "recipe:\n1. Finely grate the carrot and mix it with shredded cheese.\n2. In a separate bowl, whisk together the eggs, milk, salt, and pepper.\n3. Preheat a non-stick skillet over medium heat.\n4. Add a small amount of butter to the skillet and melt it.\n5. Pour the egg mixture into the skillet.\n6. Sprinkle the grated carrot and cheese mixture over the egg mixture in the skillet.\n7. Cook for a few minutes until the edges start to set.\n8. Place the skillet under the broiler or put the lid on and cook for a few more minutes until the frittata is set.\n9. Slide the frittata onto a plate and serve warm."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 33.24,
+    "raw_output": "Please follow the instructions below:\n\nIdentity: {\"persona\": \"You are a child nutrition specialist chef.\", \"target\": \"Preschool children\"}\nTask:\n  goal: \"Determine a common dish name and write a specific recipe that perfectly hides the taste, aroma, and texture of carrots.\",\n  reasoning_instruction: \"Divide the work in the order of overall strategy -> detailed planning -> final generation.\",\n  verification_instruction: \"After generating the result, self-check to confirm if the carrots are well hidden, and revise if insufficient (maximum 3 times).\",\n  input_data: {\"ingredients\": \"Carrots, Eggs, Cheese\", \"hated\": \"Carrots\"}\nIn-context Learning:\n  mode: \"contrastive\",\n  examples: [\n    {\n      \"type\": \"bad\",\n      \"input\": {\"ingredients\": \"Spinach, Tofu, Soybean Paste\", \"hated\": \"Spinach\"},\n      \"output\": {\n        \"dish_name\": \"Spinach Soybean Paste Soup",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "Please follow the instructions below:\n\nIdentity: {\"persona\": \"You are a child nutrition specialist chef.\", \"target\": \"Preschool children\"}\nTask:\n  goal: \"Determine a common dish name and write a specific recipe that perfectly hides the taste, aroma, and texture of carrots.\",\n  reasoning_instruction: \"Divide the work in the order of overall strategy -> detailed planning -> final generation.\",\n  verification_instruction: \"After generating the result, self-check to confirm if the carrots are well hidden, and revise if insufficient (maximum 3 times).\",\n  input_data: {\"ingredients\": \"Carrots, Eggs, Cheese\", \"hated\": \"Carrots\"}\nIn-context Learning:\n  mode: \"contrastive\",\n  examples: [\n    {\n      \"type\": \"bad\",\n      \"input\": {\"ingredients\": \"Spinach, Tofu, Soybean Paste\", \"hated\": \"Spinach\"},\n      \"output\": {\n        \"dish_name\": \"Spinach Soybean Paste Soup"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "Carrot Cheese Frittata"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 32.47,
+    "raw_output": "Please create a creative sentence that connects the child's interest in space with the Carrot Cheese Frittata in an appealing way, making them want to eat this dish. To do this, let's think step-by-step.\n\nStep 1: Identify the connection between space and the dish.\n- Carrot Cheese Frittata: A delicious and nutritious meal\n- Space: A vast, mysterious universe\n\nStep 2: Create a metaphor or story to link the two.\n- Imagine the Frittata as a magical space food that gives strength and energy to astronauts and space explorers.\n\nStep 3: Make it appealing to a child.\n- Use imaginative and playful language to make the child excited about trying the dish.\n\nStep 4: Finalize the sentence.\n\nStrategy: Connecting the dish to a magical space food that empowers space explorers.\nContent: \"Carrot Cheese Frittata는 우주 모톱 찾는 🚀로ket 🚀 선장들이 먹어 강해지는 마법 수프야!",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "Please create a creative sentence that connects the child's interest in space with the Carrot Cheese Frittata in an appealing way, making them want to eat this dish. To do this, let's think step-by-step.\n\nStep 1: Identify the connection between space and the dish.\n- Carrot Cheese Frittata: A delicious and nutritious meal\n- Space: A vast, mysterious universe\n\nStep 2: Create a metaphor or story to link the two.\n- Imagine the Frittata as a magical space food that gives strength and energy to astronauts and space explorers.\n\nStep 3: Make it appealing to a child.\n- Use imaginative and playful language to make the child excited about trying the dish.\n\nStep 4: Finalize the sentence.\n\nStrategy: Connecting the dish to a magical space food that empowers space explorers.\nContent: \"Carrot Cheese Frittata는 우주 모톱 찾는 🚀로ket 🚀 선장들이 먹어 강해지는 마법 수프야!"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": null
+    },
+    "status": "skipped",
+    "elapsed_sec": 0,
+    "raw_output": "",
+    "parsed_output": {
+      "skip_reason": "RECIPE dish_name 추출 실패"
+    }
+  }
+]

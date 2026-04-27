@@ -1,0 +1,72 @@
+[
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.34,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 볶음\", \"strategy\": \"당근을 잘게 다져 치즈와 계란의 풍미에 녹여 숨깁니다.\", \"content\": \"recipe : 1. 당근을 곱게 다진다. 2. 계란을 풀고 소금, 후추로 간을 한다. 3. 팬에 기름을 두르고 다진 당근을 볶다가 계란을 넣고 익힌다. 4. 치즈를 뿌려 녹인다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음",
+      "strategy": "당근을 잘게 다져 치즈와 계란의 풍미에 녹여 숨깁니다.",
+      "content": "recipe : 1. 당근을 곱게 다진다. 2. 계란을 풀고 소금, 후추로 간을 한다. 3. 팬에 기름을 두르고 다진 당근을 볶다가 계란을 넣고 익힌다. 4. 치즈를 뿌려 녹인다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "RECIPE",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 15.35,
+    "raw_output": "```json\n{\"dish_name\": \"치즈 계란 볶음\", \"strategy\": \"당근을 잘게 다져 치즈와 계란의 풍미에 녹여 숨깁니다.\", \"content\": \"recipe : 1. 당근을 곱게 다진다. 2. 계란을 풀고 소금, 후추로 간을 한다. 3. 팬에 기름을 두르고 다진 당근을 볶다가 계란을 넣고 익힌다. 4. 치즈를 뿌려 녹인다.\"}\n```",
+    "parsed_output": {
+      "dish_name": "치즈 계란 볶음",
+      "strategy": "당근을 잘게 다져 치즈와 계란의 풍미에 녹여 숨깁니다.",
+      "content": "recipe : 1. 당근을 곱게 다진다. 2. 계란을 풀고 소금, 후추로 간을 한다. 3. 팬에 기름을 두르고 다진 당근을 볶다가 계란을 넣고 익힌다. 4. 치즈를 뿌려 녹인다."
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_9",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음"
+    },
+    "status": "success",
+    "elapsed_sec": 10.36,
+    "raw_output": "```json\n{\"strategy\": \"치즈 계란 볶음의 노란색을 태양, 붉은색은 행성의 뜨거운 빛으로 비유하여 우주를 연상시킵니다.\", \"content\": \"우주에서 태양처럼 밝고 행성처럼 맛있는 치즈 계란 볶음을 한 번 맛보자!\"}\n```",
+    "parsed_output": {
+      "strategy": "치즈 계란 볶음의 노란색을 태양, 붉은색은 행성의 뜨거운 빛으로 비유하여 우주를 연상시킵니다.",
+      "content": "우주에서 태양처럼 밝고 행성처럼 맛있는 치즈 계란 볶음을 한 번 맛보자!"
+    }
+  },
+  {
+    "model": "ko-gemma-2-9b-it",
+    "library": "STORY",
+    "exp_key": "EXP_10",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 볶음"
+    },
+    "status": "success",
+    "elapsed_sec": 10.19,
+    "raw_output": "```json\n{\"strategy\": \"치즈 계란 볶음의 노란색을 태양, 붉은색은 행성의 뜨거운 핵을 연상시키며 우주를 표현합니다.\", \"content\": \"우주에서 태양처럼 밝고 행성처럼 맛있는 치즈 계란 볶음을 맛보자!\"}\n```",
+    "parsed_output": {
+      "strategy": "치즈 계란 볶음의 노란색을 태양, 붉은색은 행성의 뜨거운 핵을 연상시키며 우주를 표현합니다.",
+      "content": "우주에서 태양처럼 밝고 행성처럼 맛있는 치즈 계란 볶음을 맛보자!"
+    }
+  }
+]

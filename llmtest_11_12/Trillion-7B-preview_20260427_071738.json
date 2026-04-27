@@ -1,0 +1,72 @@
+[
+  {
+    "model": "Trillion-7B-preview",
+    "library": "RECIPE",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 6.86,
+    "raw_output": "```json\n{\n  \"dish_name\": \"계란 치즈볼\",\n  \"strategy\": \"당근을 곱게 다져 치즈와 계란에 섞어 맛과 향을 숨김\",\n  \"content\": \"recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 섞는다. 3. 치즈를 넣고 잘 섞는다. 4. 작은 공 모양으로 빚는다. 5. 팬에 기름을 두르고 노릇하게 구워낸다.\"\n}\n```",
+    "parsed_output": {
+      "dish_name": "계란 치즈볼",
+      "strategy": "당근을 곱게 다져 치즈와 계란에 섞어 맛과 향을 숨김",
+      "content": "recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 섞는다. 3. 치즈를 넣고 잘 섞는다. 4. 작은 공 모양으로 빚는다. 5. 팬에 기름을 두르고 노릇하게 구워낸다."
+    }
+  },
+  {
+    "model": "Trillion-7B-preview",
+    "library": "RECIPE",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 7.02,
+    "raw_output": "```json\n{\n  \"dish_name\": \"달콤한 치즈 오믈렛\",\n  \"strategy\": \"당근을 곱게 다져 치즈와 계란에 섞어 맛과 향이 다른 재료와 어우러지게 함\",\n  \"content\": \"recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 치즈를 넣고 섞는다. 3. 팬에 기름을 두르고 계란 혼합물을 부쳐낸다. 4. 익힌 후 접시에 담아낸다.\"\n}\n```",
+    "parsed_output": {
+      "dish_name": "달콤한 치즈 오믈렛",
+      "strategy": "당근을 곱게 다져 치즈와 계란에 섞어 맛과 향이 다른 재료와 어우러지게 함",
+      "content": "recipe : 1. 당근을 잘게 다진다. 2. 계란을 풀어 당근과 치즈를 넣고 섞는다. 3. 팬에 기름을 두르고 계란 혼합물을 부쳐낸다. 4. 익힌 후 접시에 담아낸다."
+    }
+  },
+  {
+    "model": "Trillion-7B-preview",
+    "library": "STORY",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "계란 치즈볼"
+    },
+    "status": "success",
+    "elapsed_sec": 5.07,
+    "raw_output": "```json\n{\n  \"strategy\": \"우주 탐험가가 된 것처럼 계란 치즈볼을 먹으면, 우주에서 온 특별한 에너지를 얻는 거야. 이 치즈볼은 우주 비행사들이 먹는 슈퍼푸드야.\",\n  \"content\": \"우주 비행사처럼 용감하게 계란 치즈볼을 먹어보자! 우주에서 온 특별한 에너지를 느낄 수 있을 거야.\"\n}\n```",
+    "parsed_output": {
+      "strategy": "우주 탐험가가 된 것처럼 계란 치즈볼을 먹으면, 우주에서 온 특별한 에너지를 얻는 거야. 이 치즈볼은 우주 비행사들이 먹는 슈퍼푸드야.",
+      "content": "우주 비행사처럼 용감하게 계란 치즈볼을 먹어보자! 우주에서 온 특별한 에너지를 느낄 수 있을 거야."
+    }
+  },
+  {
+    "model": "Trillion-7B-preview",
+    "library": "STORY",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "달콤한 치즈 오믈렛"
+    },
+    "status": "success",
+    "elapsed_sec": 5.59,
+    "raw_output": "```json\n{\n  \"strategy\": \"달콤한 치즈 오믈렛을 우주 탐험가가 먹는 에너지 바처럼 상상해봐. 이 오믈렛을 먹으면 우주 비행사처럼 힘이 세져서 별들 사이를 날아다닐 수 있을 거야!\",\n  \"content\": \"우주 탐험가가 먹는 에너지 바처럼 힘이 세지는 달콤한 치즈 오믈렛을 먹어보자!\"\n}\n```",
+    "parsed_output": {
+      "strategy": "달콤한 치즈 오믈렛을 우주 탐험가가 먹는 에너지 바처럼 상상해봐. 이 오믈렛을 먹으면 우주 비행사처럼 힘이 세져서 별들 사이를 날아다닐 수 있을 거야!",
+      "content": "우주 탐험가가 먹는 에너지 바처럼 힘이 세지는 달콤한 치즈 오믈렛을 먹어보자!"
+    }
+  }
+]

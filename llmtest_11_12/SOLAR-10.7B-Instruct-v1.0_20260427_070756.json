@@ -1,0 +1,72 @@
+[
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 38.4,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계랅이 롤\",\n  \"strategy\": \"당근을 잘게 다져 치즓와 계랅이 반조림에 완전히 숨기며 향과 식감 감추기\",\n  \"content\": \"recipe:\\n1. 당근을 0.5cm x 0.5cm 정사각형 조각으로 다져 두세 분 미리 소금에 조려 물 을 ㄴㅁ\\n2. 계랅을 6~7분 중불에 반조림한 후 치즓을 넣고 2분 더 조림\\n3. 1의 다진 당근을 2에 넣고 1분 더 조림\\n4. 3을 롤 모양 만들며 10분 더 조림\\n5. 완성된 치즓 계랅이 롤을 서브 접시에 담아 서브 디시로 서브 ㅁ\\n\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계랅이 롤",
+      "strategy": "당근을 잘게 다져 치즓와 계랅이 반조림에 완전히 숨기며 향과 식감 감추기",
+      "content": "recipe:\n1. 당근을 0.5cm x 0.5cm 정사각형 조각으로 다져 두세 분 미리 소금에 조려 물 을 ㄴㅁ\n2. 계랅을 6~7분 중불에 반조림한 후 치즓을 넣고 2분 더 조림\n3. 1의 다진 당근을 2에 넣고 1분 더 조림\n4. 3을 롤 모양 만들며 10분 더 조림\n5. 완성된 치즓 계랅이 롤을 서브 접시에 담아 서브 디시로 서브 ㅁ\n"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "RECIPE",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 24.81,
+    "raw_output": "{\n  \"dish_name\": \"치즈 계란 롤\",\n  \"strategy\": \"당근을 잘게 다져 치즣과 계란 반 넣는 롤에 완전히 숨기며 치즣과 계란 반의 향과 맛이 당근을 감추게 함\",\n  \"content\": \"recipe:\\n1. 당근을 잘게 다져 치즣과 계란 반에 넣음\\n2. 1을 롤로 만들음\\n3. 350°F (175°C) 오낭에 20분 구워 완성함\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 계란 롤",
+      "strategy": "당근을 잘게 다져 치즣과 계란 반 넣는 롤에 완전히 숨기며 치즣과 계란 반의 향과 맛이 당근을 감추게 함",
+      "content": "recipe:\n1. 당근을 잘게 다져 치즣과 계란 반에 넣음\n2. 1을 롤로 만들음\n3. 350°F (175°C) 오낭에 20분 구워 완성함"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계랅이 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 18.84,
+    "raw_output": "{\n  \"strategy\": \"우주와 치즈 계랅이 롤을 매력적으로 결합\",\n  \"content\": \"너가 이 치즈 계랅이 롤을 먹어, 너의 입안은 별들 사이로 여행할 거야. 치즈는 행성, 계랅이 는 별들, 롤은 우주 터락, 너의 입이 그 모든 것을 포함하네!\"\n}",
+    "parsed_output": {
+      "strategy": "우주와 치즈 계랅이 롤을 매력적으로 결합",
+      "content": "너가 이 치즈 계랅이 롤을 먹어, 너의 입안은 별들 사이로 여행할 거야. 치즈는 행성, 계랅이 는 별들, 롤은 우주 터락, 너의 입이 그 모든 것을 포함하네!"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "library": "STORY",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 계란 롤"
+    },
+    "status": "success",
+    "elapsed_sec": 15.29,
+    "raw_output": "{\n  \"strategy\": \"우주의 무한한 영토와 치즈 계란 롤의 매력적인 조화\",\n  \"content\": \"너가 치즈 계란 롤을 먹을 때, 너의 입 안은 우주 속 별들 처럼 색다른 요리 행성들로 채워질 거야.\"\n}",
+    "parsed_output": {
+      "strategy": "우주의 무한한 영토와 치즈 계란 롤의 매력적인 조화",
+      "content": "너가 치즈 계란 롤을 먹을 때, 너의 입 안은 우주 속 별들 처럼 색다른 요리 행성들로 채워질 거야."
+    }
+  }
+]

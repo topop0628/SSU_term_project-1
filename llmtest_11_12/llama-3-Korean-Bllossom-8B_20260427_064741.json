@@ -1,0 +1,72 @@
+[
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 11.53,
+    "raw_output": "{\n  \"dish_name\": \"치즈 케이크\",\n  \"strategy\": \"계란을 이용해 당근의 맛과 향을 완전히 숨기고 치즈를 이용해 식감을 조절\",\n  \"content\": \"recipe : 1. 당근을 매우 작은 조각으로 잘게 다진다. 2. 계란을 풀어 물에 넣고 끓인다. 3. 치즈를 넣고 잘 섞는다. 4. 잘게 다진 당근을 마지막에 넣고 다시 섞는다. 5. 팬에 넣고 가볍게 익힌다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "계란을 이용해 당근의 맛과 향을 완전히 숨기고 치즈를 이용해 식감을 조절",
+      "content": "recipe : 1. 당근을 매우 작은 조각으로 잘게 다진다. 2. 계란을 풀어 물에 넣고 끓인다. 3. 치즈를 넣고 잘 섞는다. 4. 잘게 다진 당근을 마지막에 넣고 다시 섞는다. 5. 팬에 넣고 가볍게 익힌다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "RECIPE",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근"
+    },
+    "status": "success",
+    "elapsed_sec": 10.1,
+    "raw_output": "{\n  \"dish_name\": \"치즈 케이크\",\n  \"strategy\": \"계란을 이용해 당근의 맛과 향을 완전히 숨기고 치즈를 이용해 식감을 조절\",\n  \"content\": \"recipe : 1. 당근을 매우 작은 조각으로 잘게 다진다. 2. 계란을 풀어 물에 넣고 끓인다. 3. 치즈를 넣고 잘 섞는다. 4. 잘게 다진 당근을 마지막에 넣고 섞는다.\"\n}",
+    "parsed_output": {
+      "dish_name": "치즈 케이크",
+      "strategy": "계란을 이용해 당근의 맛과 향을 완전히 숨기고 치즈를 이용해 식감을 조절",
+      "content": "recipe : 1. 당근을 매우 작은 조각으로 잘게 다진다. 2. 계란을 풀어 물에 넣고 끓인다. 3. 치즈를 넣고 잘 섞는다. 4. 잘게 다진 당근을 마지막에 넣고 섞는다."
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_11",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 8.95,
+    "raw_output": "{\n  \"strategy\": \"우주의 별과 같은 빛나는 치즈 케이크를 만든 셰프의 마법을 경험해 보자\",\n  \"content\": \"우주를 탐험하는 동안, 별과 같은 빛나는 치즈 케이크를 맛보는 것은 정말 특별한 경험이야. 셰프가 만든 이 치즈 케이크는 우주의 신비로 가득 차 있어, 한 입 먹으면 우주를 탐험하는 기분이 날 수 있어!\"",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "{\n  \"strategy\": \"우주의 별과 같은 빛나는 치즈 케이크를 만든 셰프의 마법을 경험해 보자\",\n  \"content\": \"우주를 탐험하는 동안, 별과 같은 빛나는 치즈 케이크를 맛보는 것은 정말 특별한 경험이야. 셰프가 만든 이 치즈 케이크는 우주의 신비로 가득 차 있어, 한 입 먹으면 우주를 탐험하는 기분이 날 수 있어!\""
+    }
+  },
+  {
+    "model": "llama-3-Korean-Bllossom-8B",
+    "library": "STORY",
+    "exp_key": "EXP_12",
+    "input_idx": 1,
+    "input": {
+      "interest": "우주",
+      "dish_name": "치즈 케이크"
+    },
+    "status": "parse_error",
+    "elapsed_sec": 8.99,
+    "raw_output": "{\n  \"strategy\": \"우주의 별과 같은 빛나는 치즈 케이크를 만드는 셰프의 마법을 경험해 보자\",\n  \"content\": \"우주를 탐험하는 동안, 별과 같은 빛나는 치즈 케이크를 맛보는 것은 정말 특별한 경험이야. 셰프가 만든 이 치즈 케이크는 우주의 신비로 가득 차 있어, 한 입 먹으면 우주를 탐험하는 기분이 날 수 있어!\"",
+    "parsed_output": {
+      "parse_error": true,
+      "raw": "{\n  \"strategy\": \"우주의 별과 같은 빛나는 치즈 케이크를 만드는 셰프의 마법을 경험해 보자\",\n  \"content\": \"우주를 탐험하는 동안, 별과 같은 빛나는 치즈 케이크를 맛보는 것은 정말 특별한 경험이야. 셰프가 만든 이 치즈 케이크는 우주의 신비로 가득 차 있어, 한 입 먹으면 우주를 탐험하는 기분이 날 수 있어!\""
+    }
+  }
+]
