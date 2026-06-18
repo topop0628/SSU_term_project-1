@@ -60,3 +60,7 @@ GPU 실험 (Colab/Kaggle):
 pip install transformers accelerate sentence-transformers rank_bm25
 python rag_experiment.py
 ```
+
+## 라이선스
+
+학습/연구용 프로젝트입니다.
