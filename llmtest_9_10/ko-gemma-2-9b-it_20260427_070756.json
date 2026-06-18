@@ -2,7 +2,7 @@
   {
     "model": "ko-gemma-2-9b-it",
     "library": "RECIPE",
-    "exp_key": "EXP_9",
+    "exp_key": "EXP_11",
     "input_idx": 1,
     "input": {
       "ingredients": "당근, 계란, 치즈",
@@ -20,7 +20,7 @@
   {
     "model": "ko-gemma-2-9b-it",
     "library": "RECIPE",
-    "exp_key": "EXP_10",
+    "exp_key": "EXP_12",
     "input_idx": 1,
     "input": {
       "ingredients": "당근, 계란, 치즈",
@@ -38,7 +38,7 @@
   {
     "model": "ko-gemma-2-9b-it",
     "library": "STORY",
-    "exp_key": "EXP_9",
+    "exp_key": "EXP_11",
     "input_idx": 1,
     "input": {
       "interest": "우주",
@@ -55,7 +55,7 @@
   {
     "model": "ko-gemma-2-9b-it",
     "library": "STORY",
-    "exp_key": "EXP_10",
+    "exp_key": "EXP_12",
     "input_idx": 1,
     "input": {
       "interest": "우주",

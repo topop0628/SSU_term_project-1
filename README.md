@@ -1,77 +1,62 @@
-# 🍳 시크릿 에이전트 (Secret Agent): LLM 기반 편식 교정 솔루션
+# 시크릿 에이전트 — LLM 기반 편식 교정 멀티 에이전트
 
-본 프로젝트는 에이전트 기술을 활용하여 아이가 기피하는 식재료를 조리법으로 숨기는 **'은폐 레시피 에이전트'**와 아이의 관심사를 반영한 **'맞춤형 동화 에이전트'**가 협업하는 멀티 에이전트 시스템입니다.
+아이가 싫어하는 재료를 숨긴 레시피와, 아이의 관심사를 엮은 짧은 동화를 함께 만들어 주는
+멀티 에이전트 시스템입니다.
 
----
+- **레시피 에이전트 (Chef)**: 싫어하는 재료의 맛·향·식감을 숨긴 조리법 생성
+- **동화 에이전트 (Writer)**: 완성된 요리를 아이의 관심사와 연결한 이야기 생성
 
-## 1. 시스템 아키텍처 (System Architecture)
-본 프로젝트는 로컬의 개발 편의성과 클라우드의 강력한 GPU 성능을 결합한 **하이브리드 구조**로 설계되었습니다.
+## 시스템 구조
 
-* **Frontend (Local)**: MacBook Air M2 / Streamlit UI
-* **Backend (Cloud)**: Kaggle GPU T4 ×2 / FastAPI & uvicorn
-* **Tunneling**: ngrok (로컬-클라우드 간의 보안 통로 구축)
-* **Communication**: REST API (JSON) 기반 통신
+- Frontend: Streamlit (`app.py`)
+- Backend: FastAPI + ngrok, Kaggle/Colab GPU (`llmserver.py`)
+- 서비스 모델: EEVE-Korean-Instruct-10.8B
 
----
+## 실험 개요
 
-## 2. 실험 모델 후보군 (Candidate Models)
-성능과 효율성의 최적점을 찾기 위해 아래 모델들을 비교 분석합니다.
+1. **모델·프롬프트 선정** — 한국어 LLM 6종 × 프롬프트 12종을 LLM-as-a-Judge로 비교.
+   EEVE-10.8B(85.33)와 EXP_2(Zero-shot + CoT + 자가검토, 85.67)가 가장 우수.
+2. **RAG 업그레이드** — 실제 한국어 레시피를 검색해 근거로 주입(학습 없이 추론 단계만).
+   프롬프트를 EXP_2로 고정하고 RAG on/off만 바꿔 4개 입력 케이스에서 비교.
+   → 6모델 중 5모델 개선(평균 +10.8), 제목 은폐율 54%→83%.
 
-| 모델명 | 개발사 | 파라미터 | 특징 |
-| :--- | :--- | :--- | :--- |
-| **Llama 4 Scout** | Meta | 10B | 글로벌 표준 베이스라인, 추론 효율성과 지시 이행의 완벽한 균형 |
-| **Gemma 4** | Google | 9B | Apache 2.0 라이선스의 완전 공개 모델, 논리적 추론 및 보안 전략 수립 강점 |
-| **Qwen 3.5-8B** | Alibaba | 8B | 지시 이행 및 JSON 포맷팅의 정석, 복잡한 데이터 구조 유지 능력 탁월 |
-| **EXAONE 4.5** | LG AI | 33B | 2026년 최신 한국어 SOTA 모델, 뛰어난 문맥 이해 및 한국어 추론 능력 보유 |
-| **Bllossom Llama 4** | MLPLab | 10B | Llama 4 기반의 한국어 특화 모델, 글로벌 지능과 한국어 정서의 최적화 조합 |
-| **EEVE Korean** | Yanolja | 10.8B | 검증된 한국어 효율성 모델, 미취학 아동 대상의 부드러운 구어체 생성 특화 |
----
+### RAG 파이프라인
 
-## 3. 평가 전략 (Evaluation Methodology)
-단순 체감이 아닌 **'LLM-as-a-Judge'** 방식을 통해 정량 평가를 실시합니다.
+```
+재료 입력
+  → 하이브리드 검색(BM25 + 임베딩) + 리랭킹
+  → CRAG 품질 필터 (검색 레시피가 쓸 만한지 평가)
+  → 근거 주입 (참고용, 제목에 싫어하는 재료 금지)
+  → 레시피 생성
+  → LLM-as-a-Judge 근거 검증
+```
 
-### 🧪 실험 설계
-1.  **모델 리스트**: [Llama-3-8B, Gemma-2-9B, Phi-3-Mini]
-2.  **프롬프트 버전**:
-    * **V1 (Zero-shot)**: 단순 명령 기반 생성
-    * **V2 (Few-shot)**: 전문가 페르소나 및 예시 부여
-    * **V3 (Chain-of-Thought)**: 단계별 추론 유도
-3.  **평가 지표**: 은폐성(Recipe), 몰입도(Story), 생성 속도(Latency)
+## 주요 파일
 
-### 🤖 자동화 테스트 프로세스
-* 모든 모델/프롬프트 조합을 반복문(Loop)으로 실행하여 결과 수집
-* 수집된 데이터는 상위 모델(GPT-4o 등)에 전달하여 1~5점 척도로 평가 및 시각화
+| 파일 | 설명 |
+|------|------|
+| `app.py`, `llmserver.py` | Streamlit 프론트 / FastAPI 백엔드 |
+| `recipe_prompts.py`, `story_prompts.py` | 에이전트 프롬프트 라이브러리 |
+| `llm_test.py` | baseline 6모델 × 12프롬프트 실험 (Kaggle) |
+| `llm_evaluation_prompt` | 평가 루브릭 |
+| `build_recipe_db.py`, `recipe_db.json` | 레시피 DB 구축 / 레시피 2,147개 |
+| `rag_retrieval.py` | 검색·필터·검증 코어 |
+| `rag_experiment.py` | baseline vs RAG 실험 |
+| `rag_colab.ipynb` | Colab 실행 노트북 |
+| `rag_results/score_analysis` | 채점 결과 정리 |
 
----
+## 실행
 
-## 4. 설치 및 실행 방법 (Usage Guide)
+로컬 프론트엔드:
 
-### Step 1: 클라우드 서버 설정 (Kaggle)
-1.  Kaggle Notebook에서 GPU 가속기(T4 x2)를 활성화합니다.
-2.  `huggingface_hub`를 통해 모델 사용 권한을 인증합니다.
-3.  백엔드 코드를 실행하여 생성된 **ngrok 주소**(`https://xxxx.ngrok-free.dev`)를 확인합니다.
+```bash
+pip install streamlit requests
+streamlit run app.py
+```
 
-### Step 2: 로컬 환경 설정 (MacBook)
-1.  가상환경 생성 및 활성화:
-    ```bash
-    python3 -m venv .venv
-    source .venv/bin/activate
-    ```
-2.  필수 라이브러리 설치:
-    ```bash
-    pip install streamlit requests
-    ```
-3.  앱 실행:
-    ```bash
-    streamlit run app.py
-    ```
+GPU 실험 (Colab/Kaggle):
 
-### Step 3: 서비스 연결
-* 실행된 Streamlit 브라우저 사이드바에서 복사한 **Kaggle API URL**을 입력하고 '솔루션 생성'을 시도합니다.
-
----
-
-## 5. 프로젝트 구조 (File Structure)
-* `app.py`: Streamlit 기반 프론트엔드 UI 및 API 클라이언트
-* `requirements.txt`: 프로젝트 의존성 라이브러리 목록
-* `.venv/`: 로컬 독립 가상환경
+```bash
+pip install transformers accelerate sentence-transformers rank_bm25
+python rag_experiment.py
+```

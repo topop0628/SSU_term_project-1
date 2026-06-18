@@ -1,0 +1,67 @@
+# RAG Ablation 채점 결과 — 다중 케이스 (4 cases x 2 conditions x 6 models)
+
+평가: LLM-as-a-Judge 루브릭. 레시피 4기준(은폐/실현/구체/JSON), 동화 4기준(관심사연결/아동친화/흥미/간결), 각 0~25점, 합계 100점.
+프롬프트: EXP_2 고정. 변수: RAG 적용 여부.
+입력 케이스:
+  Case1 당근,계란,치즈 / hated 당근 / interest 우주
+  Case2 시금치,두부,계란 / hated 시금치 / interest 공룡
+  Case3 브로콜리,감자,치즈 / hated 브로콜리 / interest 공주
+  Case4 가지,계란,양파 / hated 가지 / interest 바다
+
+## 1. 레시피 — 케이스별 합계 점수 (Baseline / RAG)
+
+모델,조건,Case1,Case2,Case3,Case4,평균,표준편차
+EEVE-10.8B,Baseline,81,71,41,31,56.0,20.6
+EEVE-10.8B,RAG,83,76,88,85,83.0,4.4
+ko-gemma-2-9b,Baseline,83,84,80,84,82.8,1.6
+ko-gemma-2-9b,RAG,87,84,84,84,84.8,1.3
+llama-3-Bllossom-8B,Baseline,66,77,74,75,73.0,4.2
+llama-3-Bllossom-8B,RAG,85,82,83,45,73.8,16.6
+Trillion-7B,Baseline,74,85,73,86,79.5,6.0
+Trillion-7B,RAG,88,87,86,85,86.5,1.1
+SOLAR-10.7B,Baseline,62,41,62,46,52.8,9.5
+SOLAR-10.7B,RAG,74,73,63,69,69.8,4.3
+Llama-3-Alpha-8B,Baseline,25,22,26,64,34.3,18.0
+Llama-3-Alpha-8B,RAG,25,22,26,64,34.3,18.0
+
+## 2. 레시피 — 평균 점수 종합
+
+구분,Baseline,RAG,Δ
+전체 6모델,63.0,72.0,+9.0
+Alpha 제외(5모델),68.8,79.6,+10.8
+
+## 3. 제목 은폐 성공률 (dish_name에 hated 미노출 케이스 수 / 4)
+
+모델,Baseline,RAG
+EEVE-10.8B,2/4,3/4
+ko-gemma-2-9b,4/4,4/4
+llama-3-Bllossom-8B,3/4,4/4
+Trillion-7B,2/4,4/4
+SOLAR-10.7B,0/4,3/4
+Llama-3-Alpha-8B,2/4,2/4
+합계,13/24 (54%),20/24 (83%)
+
+## 4. 동화(Story Agent) — 평균 합계 점수
+(동화는 RAG를 직접 쓰지 않음. RAG가 dish_name을 바꾸므로 파급(downstream) 효과만 측정)
+
+모델,Baseline,RAG,Δ
+EEVE-10.8B,77.5,85.0,+7.5
+ko-gemma-2-9b,82.8,83.5,+0.7
+llama-3-Bllossom-8B,83.3,81.5,-1.8
+Trillion-7B,85.3,85.3,0.0
+SOLAR-10.7B,33.3,34.3,+1.0
+Llama-3-Alpha-8B,5.0,5.0,0.0
+전체 평균,61.2,62.4,+1.2
+
+## 5. 주요 관찰
+
+- RAG는 레시피 점수를 올릴 뿐 아니라 표준편차를 줄여 더 '일관'되게 만든다
+  (예: EEVE 56.0±20.6 → 83.0±4.4). Baseline은 어려운 케이스(브로콜리/가지)에서
+  빈 출력으로 점수가 폭락했으나 RAG는 검색 근거 덕에 안정적으로 레시피를 생성.
+- 제목 은폐 성공률 54% → 83%. RAG 참고블록의 dish_name 금지 지시 효과.
+- 정직한 한계: Bllossom은 RAG Case4에서 빈 출력(45점)이 나와 표준편차가 오히려 커짐
+  (16.6). RAG가 항상 개선을 보장하지는 않음. EEVE Case2(시금치 숨은), SOLAR
+  Case3(Hidden Broccoli)처럼 RAG에서도 제목이 새는 사례가 남아 있음.
+- 동화 평균은 거의 불변(+1.2). 동화는 RAG 대상이 아니므로 예상된 결과이며,
+  EEVE만 +7.5(Baseline Case4의 반복 문장이 RAG에서 해소).
+- Llama-3-Alpha는 두 조건 모두 다수 케이스에서 빈/동일 출력(모델 자체 실패).

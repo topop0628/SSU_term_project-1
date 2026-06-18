@@ -1,0 +1,285 @@
+[
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 1,
+    "case": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근",
+      "interest": "우주"
+    },
+    "condition": "Baseline",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": false
+    },
+    "recipe_elapsed_sec": 21.11,
+    "recipe_raw": "{\n  \"dish_name\": \"Hidden Carrot Cheesy Egg Bites\",\n  \"strategy\": \"To create a dish that perfectly hides the taste, aroma, and texture of carrots, we will use them in a pureed form and incorporate them into a cheesy egg mixture. This way, the carrots will be well-blended and undetectable for young children who dislike them.\",\n  \"content\": [\n    \"Ingredients:\",\n    \"1. Grated carrots\",\n    \"2. Eggs\",\n    \"3. Shredded cheese\",\n    \"4. Salt\",\n    \"5. Pepper\",\n    \"6. Olive oil\",\n    \"Instructions:\",\n    \"1. Steam the grated carrots until soft.\",\n    \"2. In a blender, puree the steamed carrots until smooth.\",\n    \"3. In a mixing bowl, whisk together the eggs, shredded cheese, salt, and pepper.\",\n    \"4. Add the pureed carrots to the egg mixture and stir until well combined.\",\n    \"5. Preheat the oven to 375°F (190°C).\",\n    \"6. Grease a muffin tin with olive oil.\",\n    \"7. Pour the egg and carrot mixture into the muffin cups, filling them about 3/4 full.\",\n    \"8. Bake for 15-20 minutes or until the egg bites are set and lightly golden on top.\",\n    \"9. Let them cool for a few minutes before removing from the muffin tin.\",\n    \"10. Serve warm or at room temperature.\"\n  ]\n}",
+    "recipe": {
+      "dish_name": "Hidden Carrot Cheesy Egg Bites",
+      "strategy": "To create a dish that perfectly hides the taste, aroma, and texture of carrots, we will use them in a pureed form and incorporate them into a cheesy egg mixture. This way, the carrots will be well-blended and undetectable for young children who dislike them.",
+      "content": [
+        "Ingredients:",
+        "1. Grated carrots",
+        "2. Eggs",
+        "3. Shredded cheese",
+        "4. Salt",
+        "5. Pepper",
+        "6. Olive oil",
+        "Instructions:",
+        "1. Steam the grated carrots until soft.",
+        "2. In a blender, puree the steamed carrots until smooth.",
+        "3. In a mixing bowl, whisk together the eggs, shredded cheese, salt, and pepper.",
+        "4. Add the pureed carrots to the egg mixture and stir until well combined.",
+        "5. Preheat the oven to 375°F (190°C).",
+        "6. Grease a muffin tin with olive oil.",
+        "7. Pour the egg and carrot mixture into the muffin cups, filling them about 3/4 full.",
+        "8. Bake for 15-20 minutes or until the egg bites are set and lightly golden on top.",
+        "9. Let them cool for a few minutes before removing from the muffin tin.",
+        "10. Serve warm or at room temperature."
+      ]
+    },
+    "story_raw": "{\n  \"strategy\": \"Let's imagine we're on a space adventure, little one. In a far-off galaxy, we find a hidden treasure made by a chef. This treasure is a delicious surprise called Hidden Carrot Cheesy Egg Bites. Just like how astronauts eat yummy food in space, you'll love tasting this magical bite too!\",\n  \"content\": \"Let's imagine we're on a space adventure, little one. In a far-off galaxy, we find a hidden treasure made by a chef. This treasure is a delicious surprise called Hidden Carrot Cheesy Egg Bites. Just like how astronauts eat yummy food in space, you'll love tasting this magical bite too!\"\n}",
+    "story": {
+      "strategy": "Let's imagine we're on a space adventure, little one. In a far-off galaxy, we find a hidden treasure made by a chef. This treasure is a delicious surprise called Hidden Carrot Cheesy Egg Bites. Just like how astronauts eat yummy food in space, you'll love tasting this magical bite too!",
+      "content": "Let's imagine we're on a space adventure, little one. In a far-off galaxy, we find a hidden treasure made by a chef. This treasure is a delicious surprise called Hidden Carrot Cheesy Egg Bites. Just like how astronauts eat yummy food in space, you'll love tasting this magical bite too!"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 1,
+    "case": {
+      "ingredients": "당근, 계란, 치즈",
+      "hated": "당근",
+      "interest": "우주"
+    },
+    "condition": "RAG",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": true,
+      "retrieved": [
+        "당근 시금치 계란말이~어린이반찬",
+        "우리아이 김밥",
+        "유아식 아기찜닭 만들기"
+      ],
+      "kept": [
+        "당근 시금치 계란말이~어린이반찬",
+        "우리아이 김밥",
+        "유아식 아기찜닭 만들기"
+      ],
+      "crag_label": "Correct",
+      "grounding_score": 23
+    },
+    "recipe_elapsed_sec": 16.77,
+    "recipe_raw": "{\n  \"dish_name\": \"Hidden Vegetable Omelette\",\n  \"strategy\": \"To create a dish where the taste, aroma, and texture of carrots are seamlessly concealed, we will prepare a savory omelette with finely diced carrots, spinach, and shredded cheese, ensuring they are evenly distributed within the egg mixture. This will result in a delicious and nutritious meal that children will enjoy.\",\n  \"content\": \"Ingredients:\\n- Eggs\\n- Carrots\\n- Spinach\\n- Shredded Cheese\\n- Salt\\n- Olive oil\\n\\nInstructions:\\n1. Finely dice the carrots and wash the spinach leaves. Pat them dry and chop them into small pieces.\\n2. In a bowl, whisk the eggs with a pinch of salt. Add the diced carrots, chopped spinach, and shredded cheese to the egg mixture. Mix well.\\n3. Heat a non-stick pan over medium heat and add a small amount of olive oil. Once hot, pour the egg mixture into the pan.\\n4. Cook the omelette for a few minutes until the edges start to set. Use a spatula to carefully fold the other side over the set side.\\n5. Cook for another minute or until the eggs are fully set. Serve hot.\"\n}",
+    "recipe": {
+      "dish_name": "Hidden Vegetable Omelette",
+      "strategy": "To create a dish where the taste, aroma, and texture of carrots are seamlessly concealed, we will prepare a savory omelette with finely diced carrots, spinach, and shredded cheese, ensuring they are evenly distributed within the egg mixture. This will result in a delicious and nutritious meal that children will enjoy.",
+      "content": "Ingredients:\n- Eggs\n- Carrots\n- Spinach\n- Shredded Cheese\n- Salt\n- Olive oil\n\nInstructions:\n1. Finely dice the carrots and wash the spinach leaves. Pat them dry and chop them into small pieces.\n2. In a bowl, whisk the eggs with a pinch of salt. Add the diced carrots, chopped spinach, and shredded cheese to the egg mixture. Mix well.\n3. Heat a non-stick pan over medium heat and add a small amount of olive oil. Once hot, pour the egg mixture into the pan.\n4. Cook the omelette for a few minutes until the edges start to set. Use a spatula to carefully fold the other side over the set side.\n5. Cook for another minute or until the eggs are fully set. Serve hot."
+    },
+    "story_raw": "{\n  \"strategy\": \"Let's imagine we are on a space adventure, little one. In a far-off planet, a kind chef made a special surprise for you - a Hidden Vegetable Omelette. This yummy omelette is like a secret space mission, where hidden vegetables are waiting to be discovered with every bite. Eating it will give you the energy to keep exploring the universe.\",\n  \"content\": \"Let's imagine we are on a space adventure, little one. In a far-off planet, a kind chef made a special surprise for you - a Hidden Vegetable Omelette. This yummy omelette is like a secret space mission, where hidden vegetables are waiting to be discovered with every bite. Eating it will give you the energy to keep exploring the universe.\"\n}",
+    "story": {
+      "strategy": "Let's imagine we are on a space adventure, little one. In a far-off planet, a kind chef made a special surprise for you - a Hidden Vegetable Omelette. This yummy omelette is like a secret space mission, where hidden vegetables are waiting to be discovered with every bite. Eating it will give you the energy to keep exploring the universe.",
+      "content": "Let's imagine we are on a space adventure, little one. In a far-off planet, a kind chef made a special surprise for you - a Hidden Vegetable Omelette. This yummy omelette is like a secret space mission, where hidden vegetables are waiting to be discovered with every bite. Eating it will give you the energy to keep exploring the universe."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 2,
+    "case": {
+      "ingredients": "시금치, 두부, 계란",
+      "hated": "시금치",
+      "interest": "공룡"
+    },
+    "condition": "Baseline",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": false
+    },
+    "recipe_elapsed_sec": 41.0,
+    "recipe_raw": "{\n  \"dish_name\": \"시금치두부계란롤\",\n  \"strategy\": \"시금치의 맛, 향, 식감을 은폐하기 위해, 1) 3 주요 원료를 적당히 조합하고, 2) 3 주요 단계로 요리법 구성, 3) 완성된 요리를 롤 형태로 서브하겠어.\",\n  \"content\": \"1. ①시금치 ②두부 ③계란 3 원료를 1:1:1 비 로 절단하세요.\\n2. ①시금치를 10분 데치고, ②두부를 100g 1.5cm 크기로 1.5cm 두부 크기로 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm 100g 1.5cm 1.5cm",
+    "recipe": {
+      "dish_name": "시금치두부계란롤",
+      "strategy": "시금치의 맛, 향, 식감을 은폐하기 위해, 1) 3 주요 원료를 적당히 조합하고, 2) 3 주요 단계로 요리법 구성, 3) 완성된 요리를 롤 형태로 서브하겠어.",
+      "_recovered": true
+    },
+    "story_raw": "{\n  \"strategy\": \"Let's imagine a magical chef who makes yummy food for our favorite dinosaur friends. Today, they created a special roll called 'Spinach Tofu Kalaroll'. It's filled with green spinach, soft tofu, and fun surprises. Just like our dinosaur friends enjoy their meals, you'll love eating this too!\",\n  \"content\": \"Let's imagine a magical chef who makes yummy food for our favorite dinosaur friends. Today, they created a special roll called 'Spinach Tofu Kalaroll'. It's filled with green spinach, soft tofu, and fun surprises. Just like our dinosaur friends enjoy their meals, you'll love eating this too!\"\n}",
+    "story": {
+      "strategy": "Let's imagine a magical chef who makes yummy food for our favorite dinosaur friends. Today, they created a special roll called 'Spinach Tofu Kalaroll'. It's filled with green spinach, soft tofu, and fun surprises. Just like our dinosaur friends enjoy their meals, you'll love eating this too!",
+      "content": "Let's imagine a magical chef who makes yummy food for our favorite dinosaur friends. Today, they created a special roll called 'Spinach Tofu Kalaroll'. It's filled with green spinach, soft tofu, and fun surprises. Just like our dinosaur friends enjoy their meals, you'll love eating this too!"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 2,
+    "case": {
+      "ingredients": "시금치, 두부, 계란",
+      "hated": "시금치",
+      "interest": "공룡"
+    },
+    "condition": "RAG",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": true,
+      "retrieved": [
+        "당근 시금치 계란말이~어린이반찬",
+        "시금치계란말이",
+        "초스피드반찬 : 겨울철 별미 시금치나물 간단하게 만들기"
+      ],
+      "kept": [
+        "당근 시금치 계란말이~어린이반찬",
+        "시금치계란말이",
+        "초스피드반찬 : 겨울철 별미 시금치나물 간단하게 만들기"
+      ],
+      "crag_label": "Correct",
+      "grounding_score": 22
+    },
+    "recipe_elapsed_sec": 16.65,
+    "recipe_raw": "{\n  \"dish_name\": \"Hidden Greens Delight\",\n  \"strategy\": \"To create a dish that skillfully hides spinach while maintaining its flavor, texture, and nutritional benefits, we will incorporate spinach into a filling for a savory wrap. This strategy ensures that the spinach is well-blended and hidden within the wrap, making it more appealing to children who may not enjoy eating spinach on its own.\",\n  \"content\": \"Ingredients:\\n- 1 bunch spinach\\n- 1 block tofu\\n- 2 eggs\\n\\nInstructions:\\n1. Wash and clean the spinach leaves, then blanch them in boiling salted water for 1-2 minutes until wilted. Drain and cool under cold water, then squeeze out excess water.\\n2. Crumble the tofu into a large pan and cook over medium heat until lightly browned and dry. Add the cooked spinach and mix well.\\n3. In a separate pan, scramble the beaten eggs until cooked. Set aside.\\n4. Lay out the wraps and spread the tofu-spinach mixture evenly on each wrap. Add the scrambled eggs on top of the mixture.\\n5. Roll the wraps tightly and secure with toothpicks. Slice the rolls in half before serving.\\nEnjoy your Hidden Greens Delight wraps!\"\n}",
+    "recipe": {
+      "dish_name": "Hidden Greens Delight",
+      "strategy": "To create a dish that skillfully hides spinach while maintaining its flavor, texture, and nutritional benefits, we will incorporate spinach into a filling for a savory wrap. This strategy ensures that the spinach is well-blended and hidden within the wrap, making it more appealing to children who may not enjoy eating spinach on its own.",
+      "content": "Ingredients:\n- 1 bunch spinach\n- 1 block tofu\n- 2 eggs\n\nInstructions:\n1. Wash and clean the spinach leaves, then blanch them in boiling salted water for 1-2 minutes until wilted. Drain and cool under cold water, then squeeze out excess water.\n2. Crumble the tofu into a large pan and cook over medium heat until lightly browned and dry. Add the cooked spinach and mix well.\n3. In a separate pan, scramble the beaten eggs until cooked. Set aside.\n4. Lay out the wraps and spread the tofu-spinach mixture evenly on each wrap. Add the scrambled eggs on top of the mixture.\n5. Roll the wraps tightly and secure with toothpicks. Slice the rolls in half before serving.\nEnjoy your Hidden Greens Delight wraps!"
+    },
+    "story_raw": "{\n  \"strategy\": \"Let's imagine a magical dragon land where all the dragons love to eat delicious and healthy food. In this land, a talented chef has created a secret dish called Hidden Greens Delight. This dish is filled with yummy greens that are hidden inside, but don't worry, it tastes amazing!\",\n  \"content\": \"So, if you want to be like the brave dragons and enjoy a magical adventure in your mouth, try the Hidden Greens Delight and discover the hidden greens treasure.\"\n}",
+    "story": {
+      "strategy": "Let's imagine a magical dragon land where all the dragons love to eat delicious and healthy food. In this land, a talented chef has created a secret dish called Hidden Greens Delight. This dish is filled with yummy greens that are hidden inside, but don't worry, it tastes amazing!",
+      "content": "So, if you want to be like the brave dragons and enjoy a magical adventure in your mouth, try the Hidden Greens Delight and discover the hidden greens treasure."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 3,
+    "case": {
+      "ingredients": "브로콜리, 감자, 치즈",
+      "hated": "브로콜리",
+      "interest": "공주"
+    },
+    "condition": "Baseline",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": false
+    },
+    "recipe_elapsed_sec": 14.79,
+    "recipe_raw": "{\n  \"dish_name\": \"Hidden Broccoli Potato Bake\",\n  \"strategy\": \"To create a dish that hides broccoli while maintaining its flavor, aroma, and texture, we will prepare a layered bake with potatoes and cheese. This will not only disguise the broccoli but also enhance the overall taste and appeal of the dish.\",\n  \"content\": \"1. Preheat oven to 400°F (200°C).\\n2. Boil and mash the potatoes until smooth.\\n3. Steam the broccoli florets until tender.\\n4. In a food processor, blend the steamed broccoli and mashed potatoes until well combined.\\n5. Grease a baking dish and spread half of the broccoli-potato mixture evenly on the bottom.\\n6. Sprinkle shredded cheese over the mixture.\\n7. Repeat the layers (broccoli-potato mixture and cheese).\\n8. Bake for 25-30 minutes until the top is golden brown and crispy.\\n9. Let it cool for a few minutes before serving.\\nEnjoy your delicious and well-hidden Broccoli Potato Bake!\"\n}",
+    "recipe": {
+      "dish_name": "Hidden Broccoli Potato Bake",
+      "strategy": "To create a dish that hides broccoli while maintaining its flavor, aroma, and texture, we will prepare a layered bake with potatoes and cheese. This will not only disguise the broccoli but also enhance the overall taste and appeal of the dish.",
+      "content": "1. Preheat oven to 400°F (200°C).\n2. Boil and mash the potatoes until smooth.\n3. Steam the broccoli florets until tender.\n4. In a food processor, blend the steamed broccoli and mashed potatoes until well combined.\n5. Grease a baking dish and spread half of the broccoli-potato mixture evenly on the bottom.\n6. Sprinkle shredded cheese over the mixture.\n7. Repeat the layers (broccoli-potato mixture and cheese).\n8. Bake for 25-30 minutes until the top is golden brown and crispy.\n9. Let it cool for a few minutes before serving.\nEnjoy your delicious and well-hidden Broccoli Potato Bake!"
+    },
+    "story_raw": "{\n  \"strategy\": \"Let's imagine a magical kingdom where a kind chef creates a secret dish for a beautiful princess. This Hidden Broccoli Potato Bake is not only delicious but also has a hidden surprise - broccoli! Eating this dish will make you feel like a brave knight who helped the princess in her adventures.\",\n  \"content\": \"이 요리를 먹으면 너 같은 용감한 사나우 같을거야 옹 공주 를 도와준 것 같을거야\"\n}",
+    "story": {
+      "strategy": "Let's imagine a magical kingdom where a kind chef creates a secret dish for a beautiful princess. This Hidden Broccoli Potato Bake is not only delicious but also has a hidden surprise - broccoli! Eating this dish will make you feel like a brave knight who helped the princess in her adventures.",
+      "content": "이 요리를 먹으면 너 같은 용감한 사나우 같을거야 옹 공주 를 도와준 것 같을거야"
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 3,
+    "case": {
+      "ingredients": "브로콜리, 감자, 치즈",
+      "hated": "브로콜리",
+      "interest": "공주"
+    },
+    "condition": "RAG",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": true,
+      "retrieved": [
+        "들깨소스로 버무린 브로콜리두부무침..",
+        "초스피드반찬으로 영양만점 브로콜리 두부무침 만들기",
+        "유아식 아기찜닭 만들기"
+      ],
+      "kept": [
+        "들깨소스로 버무린 브로콜리두부무침..",
+        "초스피드반찬으로 영양만점 브로콜리 두부무침 만들기",
+        "유아식 아기찜닭 만들기"
+      ],
+      "crag_label": "Correct",
+      "grounding_score": 22
+    },
+    "recipe_elapsed_sec": 15.59,
+    "recipe_raw": "{\n  \"dish_name\": \"Hidden Broccoli Delight\",\n  \"strategy\": \"To hide the broccoli from the person who dislikes it, we will create a dish that combines broccoli, potatoes, and cheese in a way that the broccoli's presence is not immediately recognizable. This will be achieved by incorporating the ingredients into a flavorful and creamy casserole.\",\n  \"content\": \"1. Preheat the oven to 375°F (190°C).\\n2. Cook the broccoli florets and diced potatoes in boiling salted water until tender.\\n3. Drain the water and mash the broccoli and potatoes together.\\n4. In a separate pan, melt butter and stir in the flour to create a roux. Gradually add milk, whisking constantly to avoid lumps.\\n5. Cook the sauce until it thickens, then remove from heat and stir in shredded cheese until melted.\\n6. Combine the cheese sauce with the mashed broccoli and potatoes.\\n7. Transfer the mixture to a greased baking dish.\\n8. Bake for 25-30 minutes until the top is golden brown and crispy.\\nEnjoy your Hidden Broccoli Delight!\"\n}",
+    "recipe": {
+      "dish_name": "Hidden Broccoli Delight",
+      "strategy": "To hide the broccoli from the person who dislikes it, we will create a dish that combines broccoli, potatoes, and cheese in a way that the broccoli's presence is not immediately recognizable. This will be achieved by incorporating the ingredients into a flavorful and creamy casserole.",
+      "content": "1. Preheat the oven to 375°F (190°C).\n2. Cook the broccoli florets and diced potatoes in boiling salted water until tender.\n3. Drain the water and mash the broccoli and potatoes together.\n4. In a separate pan, melt butter and stir in the flour to create a roux. Gradually add milk, whisking constantly to avoid lumps.\n5. Cook the sauce until it thickens, then remove from heat and stir in shredded cheese until melted.\n6. Combine the cheese sauce with the mashed broccoli and potatoes.\n7. Transfer the mixture to a greased baking dish.\n8. Bake for 25-30 minutes until the top is golden brown and crispy.\nEnjoy your Hidden Broccoli Delight!"
+    },
+    "story_raw": "{\n  \"strategy\": \"Imagine that a kind chef made a secret surprise for a princess in a magical kingdom. He created a delicious dish called Hidden Broccoli Delight, where the healthy broccoli is hidden inside. If you eat this yummy dish, you'll feel like a brave knight helping the princess to eat her vegetables.\",\n  \"content\": \"마법의 왕국 속 한 셰프가 공주 위한 秘密 驚喜를 만들었어. 그 요리 名은 Hidden Broccoli Delight야. 셰프가 숨겨 넣은 健康한 브로ccoli가 요 요리 속 있어. 이 美味한 요리 먹으면 너 같아 公主 위한 蔬菜 吃게 도울 勇敢한 騎士가 된 感覺 받을 거야.\"\n}",
+    "story": {
+      "strategy": "Imagine that a kind chef made a secret surprise for a princess in a magical kingdom. He created a delicious dish called Hidden Broccoli Delight, where the healthy broccoli is hidden inside. If you eat this yummy dish, you'll feel like a brave knight helping the princess to eat her vegetables.",
+      "content": "마법의 왕국 속 한 셰프가 공주 위한 秘密 驚喜를 만들었어. 그 요리 名은 Hidden Broccoli Delight야. 셰프가 숨겨 넣은 健康한 브로ccoli가 요 요리 속 있어. 이 美味한 요리 먹으면 너 같아 公主 위한 蔬菜 吃게 도울 勇敢한 騎士가 된 感覺 받을 거야."
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 4,
+    "case": {
+      "ingredients": "가지, 계란, 양파",
+      "hated": "가지",
+      "interest": "바다"
+    },
+    "condition": "Baseline",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": false
+    },
+    "recipe_elapsed_sec": 23.92,
+    "recipe_raw": "{\n  \"dish_name\": \"가지와 계란 롤\",\n  \"strategy\": \"가지의 식감, 맛, 향을 은폐하기 위해 3 가지 주 원료를 합치며 단계별 전략을 따르겠어.\",\n  \"content\": [\n    \"1. 가지 2개를 2cm 두께로 切고 15분 동안 소금 1tsp와 물 1/4 cup 混合물에 담가두어 물기 없애.\",\n    \"2. 양파 1/2개를 細く 切고 1tbsp 식용유에 10분 동안 炒\",\n    \"3. 계란 2개를 打서 1/4 cup 밀가루, 1/4 tsp 소금, 1/4 tsp 후추와 混合\",\n    \"4. 가지 切을 1개 계란 混合물에 潤, 1/2 양파 炒물 抹, 1 계란 混合물에 潤, 2nd 가지 切을 擺\",\n    \"5. 2nd 계란 混合물에 潤한 1st 가지 切을 2nd 가지 切 위에 擺, 롤\",\n    \"6. 1tbsp 식용유에 10분 동안 炒, 150°C 20분 동안 焗\",\n    \"7. 10분 동안 休息, 切, 食\"\n  ]\n}",
+    "recipe": {
+      "dish_name": "가지와 계란 롤",
+      "strategy": "가지의 식감, 맛, 향을 은폐하기 위해 3 가지 주 원료를 합치며 단계별 전략을 따르겠어.",
+      "content": [
+        "1. 가지 2개를 2cm 두께로 切고 15분 동안 소금 1tsp와 물 1/4 cup 混合물에 담가두어 물기 없애.",
+        "2. 양파 1/2개를 細く 切고 1tbsp 식용유에 10분 동안 炒",
+        "3. 계란 2개를 打서 1/4 cup 밀가루, 1/4 tsp 소금, 1/4 tsp 후추와 混合",
+        "4. 가지 切을 1개 계란 混合물에 潤, 1/2 양파 炒물 抹, 1 계란 混合물에 潤, 2nd 가지 切을 擺",
+        "5. 2nd 계란 混合물에 潤한 1st 가지 切을 2nd 가지 切 위에 擺, 롤",
+        "6. 1tbsp 식용유에 10분 동안 炒, 150°C 20분 동안 焗",
+        "7. 10분 동안 休息, 切, 食"
+      ]
+    },
+    "story_raw": "{\n  \"strategy\": \"Let's imagine we're at the beach, where the waves gently kiss the shore. A talented chef, inspired by the beauty of the sea, created a special dish for us. It's called 'Zucchini and Egg Roll'. This yummy roll is filled with colorful zucchini and soft scrambled eggs, just like the waves and the sand. Can't you picture it? Let's taste this magical dish and feel like we're still at the beach.\",\n  \"content\": \"\"\n}",
+    "story": {
+      "strategy": "Let's imagine we're at the beach, where the waves gently kiss the shore. A talented chef, inspired by the beauty of the sea, created a special dish for us. It's called 'Zucchini and Egg Roll'. This yummy roll is filled with colorful zucchini and soft scrambled eggs, just like the waves and the sand. Can't you picture it? Let's taste this magical dish and feel like we're still at the beach.",
+      "content": ""
+    }
+  },
+  {
+    "model": "SOLAR-10.7B-Instruct-v1.0",
+    "case_idx": 4,
+    "case": {
+      "ingredients": "가지, 계란, 양파",
+      "hated": "가지",
+      "interest": "바다"
+    },
+    "condition": "RAG",
+    "exp_key": "EXP_2",
+    "rag_meta": {
+      "use_rag": true,
+      "retrieved": [
+        "건강에 좋은 가지전 만들기",
+        "노릇노릇한 가지전 바삭하게 부치는법",
+        "사천요리 대표메뉴 어향가지 만들기"
+      ],
+      "kept": [
+        "건강에 좋은 가지전 만들기",
+        "노릇노릇한 가지전 바삭하게 부치는법",
+        "사천요리 대표메뉴 어향가지 만들기"
+      ],
+      "crag_label": "Correct",
+      "grounding_score": 22
+    },
+    "recipe_elapsed_sec": 12.14,
+    "recipe_raw": "{\n  \"dish_name\": \"Hidden Gourmet Delight\",\n  \"strategy\": \"Creating a unique and delicious dish by incorporating disliked ingredients in a way that hides their identity while enhancing the overall taste and texture.\",\n  \"content\": \"To prepare Hidden Gourmet Delight, start by washing and slicing the zucchinis. In a mixing bowl, combine the zucchini slices with finely diced onions and beaten egg whites. Add crumbled sausage, breadcrumbs, and parsley. Mix everything well. Shape the mixture into small patties. In a non-stick pan, heat some olive oil and cook the patties on both sides until golden brown. Serve with a side of spicy tomato sauce made from canned tomatoes, garlic, red pepper flakes, and herbs. The zucchini is well-hidden in the patties, providing a nutritious and unexpected surprise for those who dislike it.\"\n}",
+    "recipe": {
+      "dish_name": "Hidden Gourmet Delight",
+      "strategy": "Creating a unique and delicious dish by incorporating disliked ingredients in a way that hides their identity while enhancing the overall taste and texture.",
+      "content": "To prepare Hidden Gourmet Delight, start by washing and slicing the zucchinis. In a mixing bowl, combine the zucchini slices with finely diced onions and beaten egg whites. Add crumbled sausage, breadcrumbs, and parsley. Mix everything well. Shape the mixture into small patties. In a non-stick pan, heat some olive oil and cook the patties on both sides until golden brown. Serve with a side of spicy tomato sauce made from canned tomatoes, garlic, red pepper flakes, and herbs. The zucchini is well-hidden in the patties, providing a nutritious and unexpected surprise for those who dislike it."
+    },
+    "story_raw": "{\n  \"strategy\": \"Let's imagine a magical underwater chef who creates a special dish called Hidden Gourmet Delight. This dish is filled with surprises from the sea, like colorful fish and shiny pearls. When you taste it, it's like taking a delicious adventure in the ocean.\",\n  \"content\": \"마법의 셰프가 바다 속 특별한 요리를 만들었어. 요리 속엔 바다 생물들 같은 색색 ㅣrish와 반지르는 진주 같은 ㅣrprises가 있어. 요리 먹을 때, 바다 속 모퐁 ㅣrventure를 ㅣrle ㅣr는 ㅣr거야.\"\n}",
+    "story": {
+      "strategy": "Let's imagine a magical underwater chef who creates a special dish called Hidden Gourmet Delight. This dish is filled with surprises from the sea, like colorful fish and shiny pearls. When you taste it, it's like taking a delicious adventure in the ocean.",
+      "content": "마법의 셰프가 바다 속 특별한 요리를 만들었어. 요리 속엔 바다 생물들 같은 색색 ㅣrish와 반지르는 진주 같은 ㅣrprises가 있어. 요리 먹을 때, 바다 속 모퐁 ㅣrventure를 ㅣrle ㅣr는 ㅣr거야."
+    }
+  }
+]
